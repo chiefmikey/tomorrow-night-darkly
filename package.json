@@ -2,6 +2,12 @@
   "name": "tomorrow-night-darkly",
   "version": "0.0.1",
   "description": "Just another Tomorrow Night theme",
+  "devDependencies": {
+    "@mikey-pro/style-guide": "^4.5.0",
+    "eslint": "^8.8.0",
+    "prettier": "^2.5.1",
+    "stylelint": "^14.4.0"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -14,5 +20,12 @@
   },
   "contributors": [
     "Mikl Wolfe <wolfe@mikl.io> (https://mikl.io)"
-  ]
+  ],
+  "prettier": "@mikey-pro/prettier-config",
+  "eslintConfig": {
+    "extends": "@mikey-pro/eslint-config"
+  },
+  "stylelint": {
+    "extends": "@mikey-pro/stylelint-config"
+  }
 }
