@@ -1,6 +1,6 @@
 {
   "name": "tomorrow-night-darkly",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Just another Tomorrow Night theme",
   "devDependencies": {
     "@mikey-pro/style-guide": "^4.5.0",
