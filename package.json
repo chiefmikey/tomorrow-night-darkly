@@ -4,9 +4,9 @@
   "description": "Just another Tomorrow Night theme",
   "devDependencies": {
     "@mikey-pro/style-guide": "^4.5.0",
-    "eslint": "^8.8.0",
+    "eslint": "^8.9.0",
     "prettier": "^2.5.1",
-    "stylelint": "^14.4.0"
+    "stylelint": "^14.5.0"
   },
   "license": "MIT",
   "repository": {
