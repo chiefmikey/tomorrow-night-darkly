@@ -1,3 +1,4 @@
 # Tomorrow Night Darkly
 
-_Just another Tomorrow Night theme_
+Install this theme if you want your browser to look really cool, everyone's
+doing it I swear
