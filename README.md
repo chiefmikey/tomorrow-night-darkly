@@ -1,4 +1,4 @@
-![Tomorrow Night Darkly Icon](icon/tomorrow-night-darkly-icon-sm.png)
+<img width="100px" src="icon/tomorrow-night-darkly-icon.png" alt = "tomorrow-night-darkly-icon.png">
 
 # Tomorrow Night Darkly
 
