@@ -1,3 +1,5 @@
+![Tomorrow Night Darkly Icon](icon/tomorrow-night-darkly-icon.png)
+
 # Tomorrow Night Darkly
 
 Install this theme if you want your browser to look really cool, everyone's
