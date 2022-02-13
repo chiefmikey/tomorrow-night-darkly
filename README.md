@@ -1,4 +1,4 @@
-<img width="100px" src="icon/tomorrow-night-darkly-icon.svg" alt="Tomorrow Night Darkly icon">
+<img width="100px" src="icon/tomorrow-night-darkly-icon.png" alt="Tomorrow Night Darkly icon">
 
 # Tomorrow Night Darkly
 
