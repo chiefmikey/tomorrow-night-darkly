@@ -1,4 +1,4 @@
-![Tomorrow Night Darkly Icon](icon/tomorrow-night-darkly-icon.png)
+![Tomorrow Night Darkly Icon](icon/tomorrow-night-darkly-icon-sm.png)
 
 # Tomorrow Night Darkly
 
