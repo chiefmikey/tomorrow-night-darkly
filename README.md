@@ -2,8 +2,7 @@
 
 # Tomorrow Night Darkly
 
-Install this theme if you want your browser to look really cool, everyone's
-doing it I swear
+Inspired by the Tomorrow themes from Chris Kempson
 
 [Install Chrome Theme](https://chrome.google.com/webstore/detail/tomorrow-night-darkly/najhldfogkjhgdaaloddlfdgjfolnoik)
 
