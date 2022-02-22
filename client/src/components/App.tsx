@@ -47,14 +47,15 @@ const App = () => {
           </a>
         </div>
       </div>
-      <a
-        href="https://github.com/chiefmikey"
-        className="made-by"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Made by chiefmikey
-      </a>
+      <span className="made-by">
+        <a
+          href="https://github.com/chiefmikey"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Made by chiefmikey
+        </a>
+      </span>
     </div>
   );
 };
