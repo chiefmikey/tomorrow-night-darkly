@@ -11,8 +11,8 @@ $made-by: 16px;
   background-color: $darkGray;
   position: fixed;
   width: 100vw;
+  height: 100vh;
   overflow-y: scroll;
-  display: block;
   scroll-behavior: smooth;
 }
 
@@ -29,30 +29,6 @@ $made-by: 16px;
   text-align: center;
   font-family: sans-serif;
   transform-origin: top;
-}
-
-@media (min-height: 1040px) {
-  .app {
-    transform: scale(1.1);
-  }
-}
-
-@media (min-height: 1130px) {
-  .app {
-    transform: scale(1.2);
-  }
-}
-
-@media (min-height: 1280px) {
-  .app {
-    transform: scale(1.35);
-  }
-}
-
-@media (min-resolution: 300dpi) {
-  .app {
-    transform: scale(.82);
-  }
 }
 
 .title {
@@ -95,7 +71,7 @@ $made-by: 16px;
 
 .content-title {
   font-size: $title-1;
-  margin-bottom: 40px;
+  margin-bottom: 69px;
   font-style: italic;
 }
 
