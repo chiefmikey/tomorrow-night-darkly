@@ -2,11 +2,38 @@
   "name": "tomorrow-night-darkly",
   "version": "1.0.0",
   "description": "Just another Tomorrow Night theme",
+  "scripts": {
+    "build": "NODE_ENV=development webpack --mode development",
+    "dev": "NODE_ENV=development webpack --mode development -w",
+    "prod": "NODE_ENV=production webpack --mode production",
+    "start": "ts-node app.ts",
+    "test": "nodemon app.ts"
+  },
+  "dependencies": {
+    "airbnb-browser-shims": "^3.3.0",
+    "the-new-css-reset": "^1.4.9"
+  },
   "devDependencies": {
-    "@mikey-pro/style-guide": "^4.5.0",
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-transform-react-jsx": "^7.17.3",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@mikey-pro/style-guide": "^4.8.0",
+    "@types/webpack": "^5.28.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
     "eslint": "^8.9.0",
+    "nodemon": "^2.0.15",
     "prettier": "^2.5.1",
-    "stylelint": "^14.5.0"
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "stylelint": "^14.5.1",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
   },
   "license": "MIT",
   "repository": {

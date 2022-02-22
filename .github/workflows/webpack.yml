@@ -1,0 +1,48 @@
+name: Webpack Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [17.x]
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Build
+      run: |
+        npm install
+        NODE_ENV=production webpack --mode production
+        git config advice.addIgnoredFile false
+
+    - name: Add and Commit
+      uses: EndBug/add-and-commit@v7
+      with:
+        add: './docs/public/dist --force'
+        # author_name: Mikl Wolfe
+        # author_email: wolfemikl@gmail.com
+        # branch: client
+        # committer_name: GitHub Actions
+        # committer_email: actions@github.com
+        cwd: '.'
+        default_author: github_actions
+        message: 'Update production bundle'
+        pathspec_error_handling: exitImmediately
+        pull: 'NO-PULL'
+        push: origin HEAD:client --force
+        remove: '-r webpack.config.ts index.d.ts app.ts LICENSE tsconfig.json README.md package.json package-lock.json .gitignore .github .deepsource.toml .gitattributes client'
+        signoff: false
+        # tag: 'v1.0.0 --force'
