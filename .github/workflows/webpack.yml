@@ -43,6 +43,6 @@ jobs:
         pathspec_error_handling: exitImmediately
         pull: 'NO-PULL'
         push: origin HEAD:client --force
-        remove: '-r webpack.config.ts app.ts LICENSE tsconfig.json README.md package.json package-lock.json .gitignore .github .deepsource.toml .gitattributes client'
+        remove: '-r browser icon webpack.config.ts app.ts LICENSE tsconfig.json README.md package.json package-lock.json .gitignore .github .deepsource.toml .gitattributes client'
         signoff: false
         # tag: 'v1.0.0 --force'
