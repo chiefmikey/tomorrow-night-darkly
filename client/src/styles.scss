@@ -11,9 +11,10 @@ $made-by: 16px;
   background-color: $darkGray;
   position: fixed;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   overflow-y: scroll;
   display: block;
+  scroll-behavior: smooth;
 }
 
 .wrapper::-webkit-scrollbar {
@@ -22,6 +23,7 @@ $made-by: 16px;
 
 .app {
   width: 100%;
+  height: 100%;
   color: $pink;
   display: flex;
   flex-direction: column;
@@ -31,19 +33,19 @@ $made-by: 16px;
   transform-origin: top;
 }
 
-@media (min-height: 1040px) {
+@media (min-height: 1040px) and (orientation: portrait) {
   .app {
     transform: scale(1.1);
   }
 }
 
-@media (min-height: 1130px) {
+@media (min-height: 1130px) and (orientation: portrait) {
   .app {
     transform: scale(1.2);
   }
 }
 
-@media (min-height: 1280px) {
+@media (min-height: 1280px) and (orientation: portrait) {
   .app {
     transform: scale(1.35);
   }
