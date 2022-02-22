@@ -11,6 +11,10 @@
   },
   "dependencies": {
     "airbnb-browser-shims": "^3.3.0",
+    "react": "^17.0.2",
+    "react-cool-img": "^1.2.12",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
     "the-new-css-reset": "^1.4.9"
   },
   "devDependencies": {
@@ -20,6 +24,8 @@
     "@babel/preset-react": "^7.16.7",
     "@babel/preset-typescript": "^7.16.7",
     "@mikey-pro/style-guide": "^4.8.0",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
     "@types/webpack": "^5.28.0",
     "babel-loader": "^8.2.3",
     "css-loader": "^6.6.0",
