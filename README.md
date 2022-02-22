@@ -6,8 +6,8 @@
 
 Inspired by the Tomorrow themes from Chris Kempson
 
-[Install Chrome Theme](https://chrome.google.com/webstore/detail/tomorrow-night-darkly/najhldfogkjhgdaaloddlfdgjfolnoik)
-
-[Install Firefox Theme](https://addons.mozilla.org/en-US/firefox/addon/tomorrow-night-darkly/)
+[Chrome](https://chrome.google.com/webstore/detail/tomorrow-night-darkly/najhldfogkjhgdaaloddlfdgjfolnoik)
+|
+[Firefox](https://addons.mozilla.org/en-US/firefox/addon/tomorrow-night-darkly/)
 
 </div>
