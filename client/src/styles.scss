@@ -44,12 +44,12 @@ $title-1: calc(1vmin + 1vw);
   flex-direction: column;
   justify-content: center;
   margin: 0 0 10% 0;
+  color: $pink;
 }
 
 .content-title {
   font-size: $title-1;
   margin-bottom: 30%;
-  color: $pink;
 }
 
 .content-selection {
@@ -57,7 +57,6 @@ $title-1: calc(1vmin + 1vw);
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  color: $pink;
 }
 
 .content-option {
@@ -74,7 +73,6 @@ $title-1: calc(1vmin + 1vw);
   align-items: center;
   font-size: calc(2.5vmin + 2.5vw);
   margin-bottom: 20%;
-  color: $pink;
 }
 
 .firefox-icon {
