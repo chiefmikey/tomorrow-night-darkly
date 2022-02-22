@@ -1,4 +1,5 @@
 import React from 'react';
+import Img from 'react-cool-img';
 import { FiChrome } from 'react-icons/fi';
 import { RiFirefoxLine } from 'react-icons/ri';
 
@@ -6,33 +7,54 @@ const App = () => {
   return (
     <div className="app">
       <div className="title">
-        <div className="title-1">Tomorrow</div>
-        <div className="title-2">Night</div>
-        <div className="title-3">Darkly</div>
+        <span className="title-1">Tomorrow</span>
+        <span className="title-2">Night</span>
+        <span className="title-3">Darkly</span>
       </div>
+      <Img
+        className="logo"
+        alt="Tomorrow Night Darkly logo"
+        src="public/assets/img/tomorrow-night-darkly.svg"
+        lazy={false}
+        decode={false}
+      />
       <div className="content">
-        <div className="content-title">Install Theme</div>
+        <span className="content-title">
+          A <span className="simply-dark">simply dark</span> theme
+        </span>
         <div className="content-selection">
           <a
             href="https://chrome.google.com/webstore/detail/tomorrow-night-darkly/najhldfogkjhgdaaloddlfdgjfolnoik"
             className="content-option"
+            target="_blank"
+            rel="noreferrer"
           >
             <div className="chrome-icon">
               <FiChrome />
             </div>
-            <div className="content-text">Chrome</div>
+            <span className="content-text">Chrome</span>
           </a>
           <a
             href="https://addons.mozilla.org/en-US/firefox/addon/tomorrow-night-darkly"
             className="content-option"
+            target="_blank"
+            rel="noreferrer"
           >
             <div className="firefox-icon">
               <RiFirefoxLine />
             </div>
-            <div className="content-text">Firefox</div>
+            <span className="content-text">Firefox</span>
           </a>
         </div>
       </div>
+      <a
+        href="https://github.com/chiefmikey"
+        className="made-by"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Made by chiefmikey
+      </a>
     </div>
   );
 };
