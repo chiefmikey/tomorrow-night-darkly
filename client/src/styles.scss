@@ -13,7 +13,6 @@ $made-by: 16px;
   width: 100vw;
   height: 100vh;
   overflow: scroll;
-  scrollbar-width: 0;
 }
 
 .wrapper::-webkit-scrollbar {
@@ -27,7 +26,7 @@ $made-by: 16px;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   transform-origin: top;
 }
 
