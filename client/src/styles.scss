@@ -10,7 +10,6 @@ $made-by: 16px;
 .wrapper {
   background-color: $darkGray;
   position: fixed;
-  height: 100%;
   width: 100vw;
   height: 100vh;
   overflow: scroll;
@@ -22,7 +21,6 @@ $made-by: 16px;
 
 .app {
   width: 100%;
-  height: 100%;
   color: $pink;
   display: flex;
   flex-direction: column;
@@ -47,12 +45,6 @@ $made-by: 16px;
 @media (min-height: 1280px) {
   .app {
     transform: scale(1.35);
-  }
-}
-
-@media (orientation: landscape) {
-  .app {
-    transform: none;
   }
 }
 
