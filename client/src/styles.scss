@@ -12,6 +12,7 @@ $made-by: 16px;
   position: fixed;
   width: 100vw;
   height: 100vh;
+  overflow: scroll;
 }
 
 .wrapper::-webkit-scrollbar {
@@ -20,6 +21,7 @@ $made-by: 16px;
 
 .app {
   width: 100%;
+  height: 100%;
   color: $pink;
   display: flex;
   flex-direction: column;
