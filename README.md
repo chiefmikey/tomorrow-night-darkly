@@ -1,4 +1,4 @@
-<center>
+<div align=center>
 
 <img width="100px" src="icon/tomorrow-night-darkly.svg" alt="Tomorrow Night Darkly icon">
 
@@ -10,4 +10,4 @@ Inspired by the Tomorrow themes from Chris Kempson
 
 [Install Firefox Theme](https://addons.mozilla.org/en-US/firefox/addon/tomorrow-night-darkly/)
 
-</center>
+</div>
