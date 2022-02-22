@@ -32,24 +32,27 @@ $made-by: 16px;
   transform-origin: top;
 }
 
+@media (orientation: landscape) {
+  .app {
+    transform: none;
+  }
+}
+
 @media (min-height: 1040px) {
   .app {
     transform: scale(1.1);
-    transform-origin: top;
   }
 }
 
 @media (min-height: 1130px) {
   .app {
     transform: scale(1.2);
-    transform-origin: top;
   }
 }
 
 @media (min-height: 1280px) {
   .app {
     transform: scale(1.35);
-    transform-origin: top;
   }
 }
 
