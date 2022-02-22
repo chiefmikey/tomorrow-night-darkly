@@ -1,55 +1,98 @@
 $gray: #202020;
 $darkGray: #181818;
 $pink: #b392bd;
-$title-1: calc(1vmin + 1vw);
+$title-1: 20px;
+$title-2: 70px;
+$title-3: 120px;
+$icon: 90px;
+$made-by: 16px;
+
+.wrapper {
+  background-color: $darkGray;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  scrollbar-width: 0;
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
 
 .app {
-  background-color: $gray;
-  color: $pink;
   width: 100%;
-  min-width: 100vw;
-  height: 100%;
-  min-height: 100vh;
+  color: $pink;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 100%;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  transform: scale(1.5);
   transform-origin: top;
+}
+
+@media (min-height: 1040px) {
+  .app {
+    transform: scale(1.1);
+    transform-origin: top;
+  }
+}
+
+@media (min-height: 1130px) {
+  .app {
+    transform: scale(1.2);
+    transform-origin: top;
+  }
+}
+
+@media (min-height: 1280px) {
+  .app {
+    transform: scale(1.35);
+    transform-origin: top;
+  }
 }
 
 .title {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 8% 0 10% 0;
+  margin: 80px 0 40px 0;
 }
+
 .title-1 {
   font-size: $title-1;
   margin-bottom: 7%;
 }
 
 .title-2 {
-  font-size: calc(3.5vmin + 3.5vw);
+  font-size: $title-2;
 }
 
 .title-3 {
-  font-size: calc(6vmin + 6vw);
+  font-size: $title-3;
+}
+
+.logo {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 0 10% 0;
   color: $pink;
+  margin-bottom: 140px;
 }
 
 .content-title {
   font-size: $title-1;
-  margin-bottom: 30%;
+  margin-bottom: 40px;
+  font-style: italic;
 }
 
 .content-selection {
@@ -64,22 +107,27 @@ $title-1: calc(1vmin + 1vw);
   flex-direction: column;
   justify-content: center;
   margin: 0 30% 0 30%;
+  background-color: $gray;
+  padding: 10%;
+  align-items: center;
 }
 
 .chrome-icon, .firefox-icon {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  font-size: calc(2.5vmin + 2.5vw);
+  font-size: $icon;
   margin-bottom: 20%;
 }
 
-.firefox-icon {
-  font-size: calc(2.75vmin + 2.75vw);
-}
 .content-text {
   font-size: $title-1;
+  padding: 10%;
 }
 
-
+.made-by {
+  padding-bottom: 40px;
+  font-size: $made-by;
+  font-weight: 100;
+}
