@@ -3,6 +3,20 @@ import Img from 'react-cool-img';
 import { FiChrome } from 'react-icons/fi';
 import { RiFirefoxLine } from 'react-icons/ri';
 
+const wrapper = document.querySelector('.wrapper');
+
+wrapper?.addEventListener(
+  'scroll',
+  () =>
+    (wrapper.scrollTop = Math.max(
+      1,
+      Math.min(
+        wrapper?.scrollTop,
+        wrapper?.scrollHeight - wrapper?.clientHeight - 1,
+      ),
+    )),
+);
+
 const App = () => {
   return (
     <div className="background">
