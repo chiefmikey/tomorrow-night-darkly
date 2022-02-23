@@ -68,13 +68,13 @@ $made-by: 16px;
 .title-2 {
   font-size: $title-2;
   margin-bottom: 10px;
-  animation: 6s 1 normal ease-in forwards 2s fade;
+  animation: 6s 1 normal ease-in forwards 1s fade;
   opacity: 0;
 }
 
 .title-3 {
   font-size: $title-3;
-  animation: 8s 1 normal ease-in forwards 4s fade;
+  animation: 8s 1 normal ease-in forwards 2s fade;
   opacity: 0;
 }
 
@@ -85,7 +85,7 @@ $made-by: 16px;
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
-  animation: 6s 1 normal ease-in forwards 4s fade;
+  animation: 2s 1 normal ease-in forwards 4s fade;
   opacity: 0;
 }
 
@@ -102,7 +102,7 @@ $made-by: 16px;
   font-size: $title-1;
   margin-bottom: 64px;
   font-style: italic;
-  animation: 7s 1 normal ease-in forwards 4s fade;
+  animation: 2s 1 normal ease-in forwards 4.5s fade;
   opacity: 0;
 }
 
@@ -111,7 +111,7 @@ $made-by: 16px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  animation: 8s 1 normal ease-in forwards 4s fade-in;
+  animation: 2s 1 normal ease-in forwards 5s fade-in;
   opacity: 0;
 }
 
@@ -147,7 +147,7 @@ $made-by: 16px;
   font-size: $made-by;
   font-weight: 100;
   color: $pink;
-  animation: 9s 1 normal ease-in forwards 4s fade;
+  animation: 2s 1 normal ease-in forwards 5.5s fade;
   opacity: 0;
 }
 
