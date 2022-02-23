@@ -23,6 +23,7 @@ $made-by: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: 1s 1 normal ease-in 15s shake;
 }
 
 .wrapper::-webkit-scrollbar {
@@ -33,6 +34,7 @@ $made-by: 16px;
   background-color: $darkGray;
   overflow: visible;
   height: 100%;
+  animation: .01s 10 normal ease-in 13s shake;
 }
 
 .app {
@@ -45,6 +47,7 @@ $made-by: 16px;
   text-align: center;
   font-family: 'Lato', sans-serif;
   transform-origin: top;
+  animation: .005s 30 normal ease-in 10s shake;
 }
 
 .title {
@@ -92,6 +95,7 @@ $made-by: 16px;
   justify-content: center;
   color: $pink;
   margin-bottom: 140px;
+  animation: .001s 20 normal ease-in 20s shake;
 }
 
 .content-title {
@@ -129,6 +133,7 @@ $made-by: 16px;
   font-size: $icon;
   margin-bottom: 20%;
   color: $pink;
+  animation: .001s 20 normal ease-in 30s shake;
 }
 
 .content-text {
@@ -163,5 +168,14 @@ $made-by: 16px;
   }
   to {
     opacity: 1;
+  }
+}
+
+@keyframes shake {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(0);
   }
 }
