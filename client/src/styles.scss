@@ -58,15 +58,21 @@ $made-by: 16px;
 .title-1 {
   font-size: $title-1;
   margin-bottom: 7%;
+  animation: 4s 1 normal ease-in forwards .5s fade;
+  opacity: 0;
 }
 
 .title-2 {
   font-size: $title-2;
   margin-bottom: 3%;
+  animation: 6s 1 normal ease-in forwards 2s fade;
+  opacity: 0;
 }
 
 .title-3 {
   font-size: $title-3;
+  animation: 8s 1 normal ease-in forwards 4s fade;
+  opacity: 0;
 }
 
 .logo {
@@ -76,6 +82,8 @@ $made-by: 16px;
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
+  animation: 6s 1 normal ease-in forwards 6s fade;
+  opacity: 0;
 }
 
 .content {
@@ -90,6 +98,8 @@ $made-by: 16px;
   font-size: $title-1;
   margin-bottom: 64px;
   font-style: italic;
+  animation: 7s 1 normal ease-in forwards 7s fade;
+  opacity: 0;
 }
 
 .content-selection {
@@ -97,6 +107,8 @@ $made-by: 16px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  animation: 8s 1 normal ease-in forwards 8s fade-in;
+  opacity: 0;
 }
 
 .content-option {
@@ -130,4 +142,26 @@ $made-by: 16px;
   font-size: $made-by;
   font-weight: 100;
   color: $pink;
+  animation: 9s 1 normal ease-in forwards 9s fade;
+  opacity: 0;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
