@@ -4,9 +4,9 @@
 $gray: #202020;
 $darkGray: #181818;
 $pink: #b392bd;
-$title-1: 20px;
-$title-2: 70px;
-$title-3: 120px;
+$title-1: 15px;
+$title-2: 60px;
+$title-3: 100px;
 $icon: 90px;
 $made-by: 16px;
 
@@ -54,7 +54,7 @@ $made-by: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 80px 0 40px 0;
+  margin: 80px 0 60px 0;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -173,7 +173,7 @@ $made-by: 16px;
 
 @keyframes shake {
   from {
-    transform: translateY(-20px);
+    transform: translateY(-15px);
   }
   to {
     transform: translateY(0);
