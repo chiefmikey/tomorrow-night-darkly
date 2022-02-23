@@ -22,7 +22,6 @@ $made-by: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: 1s 1 normal ease-in 15s shake;
 }
 
 .wrapper::-webkit-scrollbar {
@@ -45,7 +44,6 @@ $made-by: 16px;
   text-align: center;
   font-family: 'Lato', sans-serif;
   transform-origin: top;
-  animation: .005s 30 normal ease-in 10s shake;
   z-index: 0;
 }
 
