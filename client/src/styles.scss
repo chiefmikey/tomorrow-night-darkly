@@ -95,7 +95,6 @@ $made-by: 16px;
   justify-content: center;
   color: $pink;
   margin-bottom: 140px;
-  animation: .001s 20 normal ease-in 20s shake;
 }
 
 .content-title {
@@ -123,6 +122,7 @@ $made-by: 16px;
   background-color: $gray;
   padding: 20px;
   align-items: center;
+  animation: .001s 20 normal ease-in 15s shake;
 }
 
 .chrome-icon, .firefox-icon {
@@ -131,15 +131,16 @@ $made-by: 16px;
   justify-content: flex-start;
   align-items: center;
   font-size: $icon;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: $pink;
-  animation: .001s 20 normal ease-in 30s shake;
+  animation: .001s 20 normal ease-in 25s shake;
 }
 
 .content-text {
   font-size: $title-1;
   padding: 10px;
   color: $pink;
+  animation: .001s 20 normal ease-in 40s shake;
 }
 
 .made-by {
@@ -154,7 +155,7 @@ $made-by: 16px;
 @keyframes fade-in {
   from {
     opacity: 0;
-    transform: translateY(-16px);
+    transform: translateY(-10px);
   }
   to {
     opacity: 1;
