@@ -8,23 +8,34 @@ $icon: 90px;
 $made-by: 16px;
 
 .wrapper {
-  background-color: $darkGray;
+  background-color: $gray;
   position: fixed;
   width: 100vw;
   height: 100vh;
-  overflow-y: scroll;
+  overflow-y: auto;
   scroll-behavior: smooth;
   scroll-padding-block-start: 100vh;
   scroll-padding-block-end: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .wrapper::-webkit-scrollbar {
   display: none;
 }
 
+.background {
+  background-color: $darkGray;
+  overflow: visible;
+  height: 100%;
+}
+
 .app {
-  width: 100%;
   color: $pink;
+  background-color: $darkGray;
+  width: 900px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,7 +122,7 @@ $made-by: 16px;
 }
 
 .made-by {
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   font-size: $made-by;
   font-weight: 100;
   color: $pink;
