@@ -32,6 +32,9 @@ $made-by: 16px;
   background-color: $darkGray;
   overflow: visible;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .app {
