@@ -14,6 +14,8 @@ $made-by: 16px;
   height: 100vh;
   overflow-y: scroll;
   scroll-behavior: smooth;
+  scroll-padding-block-start: 100vh;
+  scroll-padding-block-end: 100vh;
 }
 
 .wrapper::-webkit-scrollbar {
