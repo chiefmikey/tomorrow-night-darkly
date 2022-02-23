@@ -84,7 +84,7 @@ $made-by: 16px;
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
-  animation: 6s 1 normal ease-in forwards 6s fade;
+  animation: 6s 1 normal ease-in forwards 4s fade;
   opacity: 0;
 }
 
@@ -101,7 +101,7 @@ $made-by: 16px;
   font-size: $title-1;
   margin-bottom: 64px;
   font-style: italic;
-  animation: 7s 1 normal ease-in forwards 7s fade;
+  animation: 7s 1 normal ease-in forwards 4s fade;
   opacity: 0;
 }
 
@@ -110,7 +110,7 @@ $made-by: 16px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  animation: 8s 1 normal ease-in forwards 8s fade-in;
+  animation: 8s 1 normal ease-in forwards 4s fade-in;
   opacity: 0;
 }
 
@@ -146,7 +146,7 @@ $made-by: 16px;
   font-size: $made-by;
   font-weight: 100;
   color: $pink;
-  animation: 9s 1 normal ease-in forwards 9s fade;
+  animation: 9s 1 normal ease-in forwards 4s fade;
   opacity: 0;
 }
 
