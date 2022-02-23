@@ -15,6 +15,7 @@ $made-by: 16px;
   position: fixed;
   width: 100vw;
   height: 100vh;
+  height: -webkit-fill-available;
   overflow-y: scroll;
   scroll-behavior: smooth;
   overflow-x: hidden;
