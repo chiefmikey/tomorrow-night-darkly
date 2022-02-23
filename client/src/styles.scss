@@ -59,7 +59,7 @@ $made-by: 16px;
 
 .title-1 {
   font-size: $title-1;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   animation: 4s 1 normal ease-in forwards .5s fade;
   opacity: 0;
 }
@@ -118,9 +118,9 @@ $made-by: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 20px 0 20px;
+  margin: 0 40px 0 40px;
   background-color: $gray;
-  padding: 10%;
+  padding: 20px;
   align-items: center;
 }
 
