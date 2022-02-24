@@ -10,6 +10,10 @@ $title-3: 100px;
 $icon: 90px;
 $made-by: 16px;
 
+body {
+  overflow: hidden;
+}
+
 .wrapper {
   background-color: $gray;
   position: fixed;
