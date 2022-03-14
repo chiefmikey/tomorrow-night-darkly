@@ -10,6 +10,11 @@ $title-3: 100px;
 $icon: 90px;
 $made-by: 16px;
 
+a {
+  color: $pink;
+  text-decoration: none;
+}
+
 .wrapper {
   background-color: $gray;
   position: fixed;
