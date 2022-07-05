@@ -4,8 +4,7 @@
 
 # Tomorrow Night Darkly
 
-Inspired by [Tomorrow](https://github.com/chriskempson/tomorrow-theme) and
-[GitHub Dark](https://github.com/StylishThemes/GitHub-Dark)
+A [Simply Dark](https://simplydark.net) Theme
 
 [Chrome](https://chrome.google.com/webstore/detail/tomorrow-night-darkly/najhldfogkjhgdaaloddlfdgjfolnoik)
 |
