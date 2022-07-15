@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Tomorrow Night Darkly",
   "version": "1.0",
-  "description": "A simply dark theme",
+  "description": "A Simply Dark Theme",
   "theme": {
     "colors": {
       "frame": [
