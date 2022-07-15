@@ -21,7 +21,7 @@ const App = () => {
         />
         <div className="content">
           <span className="content-title">
-            A <span className="simply-dark">simply dark</span> theme
+            A <span className="simply-dark">Simply Dark</span> Theme
           </span>
           <div className="content-selection">
             <a
