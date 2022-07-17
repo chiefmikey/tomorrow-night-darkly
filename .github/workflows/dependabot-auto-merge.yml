@@ -1,4 +1,5 @@
-name: Dependabot auto-merge
+name: Dependabot Auto-Merge
+
 on: pull_request
 
 permissions:
@@ -9,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
-      - name: Enable auto-merge for Dependabot PRs
+      - name: Enable Auto-Merge
         run: gh pr merge --auto --merge "$PR_URL"
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
