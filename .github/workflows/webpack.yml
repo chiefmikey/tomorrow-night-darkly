@@ -27,7 +27,7 @@ jobs:
       with:
         default_author: github_actions
         add: './docs/public/dist --force'
-        remove: '-r ./!docs'
+        remove: '-r /* :!docs'
         message: 'Update production bundle'
         push: origin HEAD:client --force
         pathspec_error_handling: exitImmediately
