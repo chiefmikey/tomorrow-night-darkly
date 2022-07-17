@@ -25,8 +25,9 @@ jobs:
     - name: Add and Commit
       uses: EndBug/add-and-commit@v9
       with:
+        remove: '.'
         add: './docs/public/dist --force'
-        message: 'Update production bundle'
-        pathspec_error_handling: exitImmediately
-        push: origin HEAD:client --force
         default_author: github_actions
+        message: 'Update production bundle'
+        push: origin HEAD:client --force
+        pathspec_error_handling: exitImmediately
