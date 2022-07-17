@@ -29,4 +29,4 @@ jobs:
         message: 'Update production bundle'
         pathspec_error_handling: exitImmediately
         push: origin HEAD:client --force
-        remove: '-r browser icon webpack.config.ts app.ts LICENSE tsconfig.json README.md package.json package-lock.json .gitignore .github .deepsource.toml .gitattributes client'
+        default_author: github_actions
