@@ -17,7 +17,7 @@
     "react-cool-img": "^1.2.12",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
-    "the-new-css-reset": "^1.7.2"
+    "the-new-css-reset": "^1.7.3"
   },
   "devDependencies": {
     "@babel/core": "^7.18.10",
