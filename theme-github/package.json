@@ -1,0 +1,18 @@
+{
+  "name": "theme-github",
+  "version": "1.0.0",
+  "description": "Mikey Pro Theme for GitHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://chiefmikey@github.com/mikey-pro/theme-github.git"
+  },
+  "homepage": "https://github.com/mikey-pro/theme-github#readme",
+  "author": "Mikl Wolfe <wolfe@mikl.io> (https://mikl.io)",
+  "bugs": {
+    "url": "https://github.com/mikey-pro/theme-github/issues"
+  },
+  "contributors": [
+    "Mikl Wolfe <wolfe@mikl.io> (https://mikl.io)"
+  ]
+}
