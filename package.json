@@ -33,7 +33,7 @@
     "@types/webpack": "^5.28.0",
     "babel-loader": "^9.1.0",
     "css-loader": "^6.7.2",
-    "eslint": "^8.27.0",
+    "eslint": "^8.28.0",
     "nodemon": "^2.0.20",
     "prettier": "^2.7.1",
     "sass": "^1.56.1",
