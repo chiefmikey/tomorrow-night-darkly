@@ -1,7 +1,6 @@
 import React from 'react';
 import Img from 'react-cool-img';
 import { FiChrome } from 'react-icons/fi';
-import { RiFirefoxLine } from 'react-icons/ri';
 
 const App = () => {
   return (
@@ -34,17 +33,6 @@ const App = () => {
                 <FiChrome />
               </div>
               <span className="content-text">Chrome</span>
-            </a>
-            <a
-              href="https://addons.mozilla.org/en-US/firefox/addon/tomorrow-night-darkly"
-              className="content-option"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="firefox-icon">
-                <RiFirefoxLine />
-              </div>
-              <span className="content-text">Firefox</span>
             </a>
           </div>
         </div>
