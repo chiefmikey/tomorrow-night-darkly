@@ -6,8 +6,6 @@
 
 A [Simply Dark](https://simplydark.net) Theme
 
-[Chrome](https://chrome.google.com/webstore/detail/tomorrow-night-darkly/najhldfogkjhgdaaloddlfdgjfolnoik)
-|
-[Firefox](https://addons.mozilla.org/en-US/firefox/addon/tomorrow-night-darkly/)
+[Add to Chrome](https://chrome.google.com/webstore/detail/tomorrow-night-darkly/najhldfogkjhgdaaloddlfdgjfolnoik)
 
 </div>
