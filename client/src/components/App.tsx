@@ -42,7 +42,7 @@ const App = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Made by chiefmikey
+            Made by Chief Mikey
           </a>
         </span>
       </div>
