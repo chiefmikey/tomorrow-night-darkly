@@ -6,12 +6,14 @@ permissions:
   contents: write
 
 jobs:
-  dependabot-auto-merge:
+  auto-merge:
+    name: Auto-Merge
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
-      - name: Enable Auto-Merge
-        run: gh pr merge --auto --merge "$PR_URL"
+      - name: Enable auto-merge for Dependabot PRs
+        run: gh pr merge "$PR_URL" --auto --squash --subject "$COMMIT_MESSAGE"
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GH_TOKEN: ${{ secrets.TND_AUTH }}
+          COMMIT_MESSAGE: ${{ github.event.pull_request.title }}
