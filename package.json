@@ -31,7 +31,7 @@
     "@types/react-dom": "^18.0.9",
     "@types/webpack": "^5.28.0",
     "babel-loader": "^9.1.0",
-    "css-loader": "^6.7.2",
+    "css-loader": "^6.7.3",
     "eslint": "^8.28.0",
     "mikey-pro": "^5.0.7",
     "nodemon": "^2.0.20",
