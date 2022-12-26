@@ -5,15 +5,51 @@
   "description": "A Simply Dark Theme",
   "theme": {
     "colors": {
-      "frame": [32, 32, 32],
-      "toolbar": [24, 24, 24],
-      "tab_text": [178, 148, 187],
-      "tab_background_text": [198, 198, 198],
-      "bookmark_text": [178, 148, 187],
-      "ntp_background": [24, 24, 24],
-      "ntp_text": [198, 198, 198],
-      "ntp_link": [32, 32, 32],
-      "button_background": [32, 32, 32]
+      "frame": [
+        32,
+        32,
+        32
+      ],
+      "toolbar": [
+        24,
+        24,
+        24
+      ],
+      "tab_text": [
+        178,
+        148,
+        187
+      ],
+      "tab_background_text": [
+        198,
+        198,
+        198
+      ],
+      "bookmark_text": [
+        178,
+        148,
+        187
+      ],
+      "ntp_background": [
+        24,
+        24,
+        24
+      ],
+      "ntp_text": [
+        198,
+        198,
+        198
+      ],
+      "ntp_link": [
+        32,
+        32,
+        32
+      ],
+      "button_background": [
+        32,
+        32,
+        32
+      ]
     }
   }
 }
