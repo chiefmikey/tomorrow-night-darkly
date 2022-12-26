@@ -33,7 +33,7 @@
     "babel-loader": "^9.1.0",
     "css-loader": "^6.7.3",
     "eslint": "^8.30.0",
-    "mikey-pro": "^6.0.5",
+    "mikey-pro": "^6.0.7",
     "nodemon": "^2.0.20",
     "prettier": "^2.8.1",
     "sass": "^1.57.1",
@@ -47,14 +47,14 @@
     "webpack-cli": "^5.0.1"
   },
   "license": "MIT",
+  "author": "Mikl Wolfe <wolfe@mikl.io> (https://mikl.io)",
+  "homepage": "https://github.com/chiefmikey/tomorrow-night-darkly#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://chiefmikey@github.com/chiefmikey/tomorrow-night-darkly.git"
+    "url": "git+https://github.com/chiefmikey/console-events.git"
   },
-  "homepage": "https://github.com/chiefmikey/tomorrow-night-darkly#readme",
-  "author": "Mikl Wolfe <wolfe@mikl.io> (https://mikl.io)",
   "bugs": {
-    "url": "https://github.com/chiefmikey/tomorrow-night-darkly/issues"
+    "url": "https://github.com/chiefmikey/console-events/issues"
   },
   "prettier": "@mikey-pro/prettier-config",
   "eslintConfig": {
