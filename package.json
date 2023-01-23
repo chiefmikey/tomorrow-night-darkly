@@ -33,7 +33,7 @@
     "babel-loader": "^9.1.0",
     "css-loader": "^6.7.3",
     "eslint": "^8.31.0",
-    "mikey-pro": "^6.2.1",
+    "mikey-pro": "^6.4.2",
     "nodemon": "^2.0.20",
     "prettier": "^2.8.1",
     "sass": "^1.57.1",
