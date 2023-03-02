@@ -34,7 +34,7 @@
     "css-loader": "^6.7.3",
     "eslint": "^8.31.0",
     "mikey-pro": "^6.2.1",
-    "nodemon": "^2.0.20",
+    "nodemon": "^2.0.21",
     "prettier": "^2.8.1",
     "sass": "^1.57.1",
     "sass-loader": "^13.2.0",
