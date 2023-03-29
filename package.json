@@ -32,7 +32,7 @@
     "@types/webpack": "^5.28.0",
     "babel-loader": "^9.1.0",
     "css-loader": "^6.7.3",
-    "eslint": "^8.31.0",
+    "eslint": "^8.37.0",
     "mikey-pro": "^6.2.1",
     "nodemon": "^2.0.20",
     "prettier": "^2.8.1",
