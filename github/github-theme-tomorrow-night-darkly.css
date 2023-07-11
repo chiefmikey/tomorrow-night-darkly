@@ -1,0 +1,92 @@
+/* Tomorrow Night Darkly */
+
+:root {
+  --accent-main: #b294bb !important;
+  --bg-main: #202020 !important;
+  --color-canvas-default: #202020 !important;
+  --color-canvas-subtle: #202020 !important;
+  --color-canvas-subtle: #1a1a1a !important;
+  --color-accent-subtle: #1a1a1a !important;
+  --color-accent-emphasis: #b294bb !important;
+  --rgh-heat-color: #b294bb !important;
+  --color-primer-border-active: #b294bb !important;
+  --color-btn-primary-hover-bg: #b294bb !important;
+  --color-btn-primary-bg: none !important;
+  --color-btn-primary-icon: #c6c6c6 !important;
+  --color-canvas-overlay: #202020 !important;
+  --color-btn-bg: #202020 !important;
+  --color-btn-outline-disabled-bg: #202020 !important;
+  --color-calendar-graph-day-bg: transparent !important;
+  --color-calendar-graph-day-L1-bg: #b294bb57 !important;
+  --color-calendar-graph-day-L2-bg: #b294bb9c !important;
+  --color-calendar-graph-day-L3-bg: #b294bbd4 !important;
+  --color-calendar-graph-day-L4-bg: #b294bb !important;
+  --color-calendar-graph-day-border: transparent !important;
+  --color-calendar-graph-day-L1-border: transparent !important;
+  --color-calendar-graph-day-L2-border: transparent !important;
+  --color-calendar-graph-day-L3-border: transparent !important;
+  --color-calendar-graph-day-L4-border: transparent !important;
+  --color-avatar-bg: transparent !important;
+  --color-avatar-border: transparent !important;
+  --color-success-emphasis: #b294bb !important;
+  --color-success-fg: #b294bb !important;
+  --color-fg-on-emphasis: #202020 !important;
+  --fgColor-default: #c6c6c6 !important;
+  --color-fg-default: #c6c6c6 !important;
+  --color-accent-fg: #c6c6c6 !important;
+  --color-btn-text: #c6c6c6 !important;
+  --color-btn-outline-disabled-text: rgb(255, 255, 255, .1) !important;
+  --color-btn-border: rgb(255, 255, 255, .1) !important;
+  --color-border-default: rgb(255, 255, 255, .1) !important;
+}
+
+.js-highlight-blob {
+  fill: var(--color-calendar-graph-day-L2-bg);
+  stroke: var(--color-calendar-graph-day-L2-bg);
+}
+
+input[type="checkbox"] {
+  accent-color: var(--accent-main);
+}
+
+.achievement-badge-sidebar {
+  opacity: .8 !important;
+}
+
+.flash .octicon,
+.octicon-calendar,
+.octicon-stopwatch,
+rect[style*='#gradient-'],
+.hx_color-icon-directory {
+  fill: var(--accent-main);
+}
+
+a:hover,
+.btn:hover {
+  text-decoration: none !important;
+  color: var(--accent-main);
+}
+
+.application-main,
+.AppHeader,
+.Box,
+.Box-row--focus-gray.navigation-focus,
+.BaseStyles__Base-sc-nfjs56-0,
+.Box-sc-g0xbh4-0,
+.types__StyledButton-sc-ws60qy-0,
+.TextInputWrapper__TextInputBaseWrapper-sc-1mqhpbi-0,
+body,
+.d-flex,
+.flex-auto,
+.Details-content--shown,
+.form-control,
+.Box-header {
+  background-color: var(--bg-main);
+}
+
+.d-flex,
+.Details-content--shown,
+.Box-row {
+  box-shadow: none !important;
+  border-color: var(--color-btn-border);
+}
