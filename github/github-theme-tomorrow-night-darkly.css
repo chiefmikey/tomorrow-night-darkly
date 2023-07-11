@@ -4,7 +4,10 @@
   --accent-main: #b294bb !important;
   --accent-secondary: #c6c6c6 !important;
   --accent-disabled: rgb(255, 255, 255, .1) !important;
+  --accent-border: rgb(255, 255, 255, .1) !important;
   --bg-main: #202020 !important;
+  --accent-transparent: transparent !important;
+  --color-notifications-row-bg: #202020 !important;
   --color-canvas-default: #202020 !important;
   --color-canvas-subtle: #202020 !important;
   --color-canvas-subtle: #1a1a1a !important;
@@ -35,7 +38,7 @@
   --color-fg-on-emphasis: #202020 !important;
   --fgColor-default: #c6c6c6 !important;
   --color-fg-default: #c6c6c6 !important;
-  --color-accent-fg: #c6c6c6 !important;
+  --color-accent-fg: #b294bb !important;
   --color-btn-text: #c6c6c6 !important;
   --color-btn-primary-text: #c6c6c6 !important;
   --color-btn-outline-disabled-text: rgb(255, 255, 255, .1) !important;
@@ -43,7 +46,13 @@
   --color-btn-border: rgb(255, 255, 255, .1) !important;
   --color-border-default: rgb(255, 255, 255, .1) !important;
   --color-accent-muted: rgb(255, 255, 255, .1) !important;
+  --color-border-muted: rgb(255, 255, 255, .1) !important;
+  --color-btn-hover-border: rgb(255, 255, 255, .1) !important;
   --color-btn-primary-disabled-bg: transparent !important;
+  --color-btn-hover-bg: transparent !important;
+  --color-neutral-emphasis: transparent !important;
+  --color-neutral-emphasis-plus: transparent !important;
+  --color-shadow-medium: transparent !important
 }
 
 .js-highlight-blob {
@@ -51,12 +60,18 @@
   stroke: var(--color-calendar-graph-day-L2-bg);
 }
 
+.filter-item.selected {
+  border: solid 1px var(--accent-main);
+  color: var(--accent-secondary);
+  background-color: var(--accent-transparent);
+}
+
 input[type="checkbox"] {
   accent-color: var(--accent-main);
 }
 
 .achievement-badge-sidebar {
-  opacity: .8 !important;
+ opacity: .8 !important;
 }
 
 .octicon-calendar,
@@ -72,7 +87,8 @@ a:hover,
   color: var(--accent-main);
 }
 
-.btn:disabled:hover {
+.btn:disabled:hover,
+.btn[aria-disabled=true] {
   text-decoration: none !important;
   color: var(--accent-disabled);
 }
@@ -86,7 +102,6 @@ a:hover,
 .types__StyledButton-sc-ws60qy-0,
 .TextInputWrapper__TextInputBaseWrapper-sc-1mqhpbi-0,
 body,
-.d-flex,
 .flex-auto,
 .Details-content--shown,
 .form-control,
@@ -94,7 +109,6 @@ body,
   background-color: var(--bg-main);
 }
 
-.d-flex,
 .Details-content--shown,
 .Box-row {
   box-shadow: none !important;
