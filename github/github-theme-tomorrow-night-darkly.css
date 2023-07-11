@@ -2,6 +2,8 @@
 
 :root {
   --accent-main: #b294bb !important;
+  --accent-secondary: #c6c6c6 !important;
+  --accent-disabled: rgb(255, 255, 255, .1) !important;
   --bg-main: #202020 !important;
   --color-canvas-default: #202020 !important;
   --color-canvas-subtle: #202020 !important;
@@ -10,7 +12,7 @@
   --color-accent-emphasis: #b294bb !important;
   --rgh-heat-color: #b294bb !important;
   --color-primer-border-active: #b294bb !important;
-  --color-btn-primary-hover-bg: #b294bb !important;
+  --color-btn-primary-hover-bg: transparent !important;
   --color-btn-primary-bg: none !important;
   --color-btn-primary-icon: #c6c6c6 !important;
   --color-canvas-overlay: #202020 !important;
@@ -35,9 +37,13 @@
   --color-fg-default: #c6c6c6 !important;
   --color-accent-fg: #c6c6c6 !important;
   --color-btn-text: #c6c6c6 !important;
+  --color-btn-primary-text: #c6c6c6 !important;
   --color-btn-outline-disabled-text: rgb(255, 255, 255, .1) !important;
+  --color-btn-primary-disabled-text: rgb(255, 255, 255, .1) !important;
   --color-btn-border: rgb(255, 255, 255, .1) !important;
   --color-border-default: rgb(255, 255, 255, .1) !important;
+  --color-accent-muted: rgb(255, 255, 255, .1) !important;
+  --color-btn-primary-disabled-bg: transparent !important;
 }
 
 .js-highlight-blob {
@@ -53,7 +59,6 @@ input[type="checkbox"] {
   opacity: .8 !important;
 }
 
-.flash .octicon,
 .octicon-calendar,
 .octicon-stopwatch,
 rect[style*='#gradient-'],
@@ -65,6 +70,11 @@ a:hover,
 .btn:hover {
   text-decoration: none !important;
   color: var(--accent-main);
+}
+
+.btn:disabled:hover {
+  text-decoration: none !important;
+  color: var(--accent-disabled);
 }
 
 .application-main,
