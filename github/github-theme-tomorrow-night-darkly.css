@@ -33,12 +33,10 @@
   --color-calendar-graph-day-L4-border: transparent !important;
   --color-avatar-bg: transparent !important;
   --color-avatar-border: transparent !important;
-  --color-success-emphasis: #b294bb !important;
-  --color-success-fg: #b294bb !important;
   --color-fg-on-emphasis: #202020 !important;
   --fgColor-default: #c6c6c6 !important;
   --color-fg-default: #c6c6c6 !important;
-  --color-accent-fg: #b294bb !important;
+  --color-accent-fg: #c6c6c6 !important;
   --color-btn-text: #c6c6c6 !important;
   --color-btn-primary-text: #c6c6c6 !important;
   --color-btn-outline-disabled-text: rgb(255, 255, 255, .1) !important;
@@ -51,8 +49,19 @@
   --color-btn-primary-disabled-bg: transparent !important;
   --color-btn-hover-bg: transparent !important;
   --color-neutral-emphasis: transparent !important;
-  --color-neutral-emphasis-plus: transparent !important;
-  --color-shadow-medium: transparent !important
+  --color-shadow-medium: transparent !important;
+  --color-fg-muted: #7d7d7d !important;
+  --color-canvas-inset: #202020 !important;
+  --color-neutral-muted: rgb(0, 0, 0, .5) !important;
+  --color-workflow-card-bg: #202020 !important;
+  --color-btn-active-bg: #202020 !important;
+  --color-btn-active-border: #c6c6c6 !important;
+  /* daily contribution info background */
+  --color-neutral-emphasis-plus: #c6c6c6 !important;
+}
+
+.AppHeader-button--hasIndicator::before {
+  background: var(--accent-main) !important;
 }
 
 .js-highlight-blob {
@@ -60,10 +69,25 @@
   stroke: var(--color-calendar-graph-day-L2-bg);
 }
 
+.turbo-progress-bar {
+  background: #b294bb !important;
+}
+
+
+.AppHeader,
+.UnderlineNav {
+  box-shadow: none !important;
+}
+
+.subnav-item.selected {
+  color: var(--accent-secondary) !important;
+  background-color: var(--accent-transparent) !important;
+}
+
 .filter-item.selected {
-  border: solid 1px var(--accent-main);
-  color: var(--accent-secondary);
-  background-color: var(--accent-transparent);
+  border: none !important;
+  color: var(--accent-main) !important;
+  background-color: var(--accent-transparent) !important;
 }
 
 input[type="checkbox"] {
@@ -71,7 +95,7 @@ input[type="checkbox"] {
 }
 
 .achievement-badge-sidebar {
- opacity: .8 !important;
+  opacity: .8 !important;
 }
 
 .octicon-calendar,
@@ -94,7 +118,6 @@ a:hover,
 }
 
 .application-main,
-.AppHeader,
 .Box,
 .Box-row--focus-gray.navigation-focus,
 .BaseStyles__Base-sc-nfjs56-0,
