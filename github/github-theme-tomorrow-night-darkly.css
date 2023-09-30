@@ -21,7 +21,6 @@
   --color-canvas-overlay: #202020 !important;
   --color-btn-bg: #202020 !important;
   --color-btn-outline-disabled-bg: #202020 !important;
-  --color-calendar-graph-day-bg: transparent !important;
   --color-calendar-graph-day-L1-bg: #b294bb57 !important;
   --color-calendar-graph-day-L2-bg: #b294bb9c !important;
   --color-calendar-graph-day-L3-bg: #b294bbd4 !important;
@@ -56,8 +55,19 @@
   --color-workflow-card-bg: #202020 !important;
   --color-btn-active-bg: #202020 !important;
   --color-btn-active-border: #c6c6c6 !important;
+  /* daily contribution 0 background */
+  --color-calendar-graph-day-bg: #2e2e2e !important;
   /* daily contribution info background */
   --color-neutral-emphasis-plus: #c6c6c6 !important;
+}
+
+::selection {
+  background: var(--accent-main) !important; /* WebKit/Blink Browsers */
+  opacity: 100%;
+}
+
+::-moz-selection {
+  background: var(--accent-main) !important; /* Gecko Browsers */
 }
 
 .AppHeader-button--hasIndicator::before {
@@ -105,10 +115,16 @@ rect[style*='#gradient-'],
   fill: var(--accent-main);
 }
 
+a,
+.btn {
+  text-decoration: none !important;
+  color: var(--accent-main);
+}
+
 a:hover,
 .btn:hover {
   text-decoration: none !important;
-  color: var(--accent-main);
+  color: var(--color-calendar-graph-day-L3-bg);
 }
 
 .btn:disabled:hover,
