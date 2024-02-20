@@ -1,37 +1,25 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: github-actions
+    directory: /
     schedule:
-      interval: "daily"
-      time: "12:00"
-      timezone: "America/Denver"
+      interval: daily
+      time: 12:00
+      timezone: America/Denver
     commit-message:
-      prefix: "npm"
+      prefix: actions
     labels:
-      - "dependencies"
+      - dependencies
     open-pull-requests-limit: 100
 
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: docker
+    directory: /
     schedule:
-      interval: "daily"
-      time: "12:00"
-      timezone: "America/Denver"
+      interval: daily
+      time: 12:00
+      timezone: America/Denver
     commit-message:
-      prefix: "actions"
+      prefix: docker
     labels:
-      - "dependencies"
-    open-pull-requests-limit: 100
-
-  - package-ecosystem: "docker"
-    directory: "/"
-    schedule:
-      interval: "daily"
-      time: "12:00"
-      timezone: "America/Denver"
-    commit-message:
-      prefix: "docker"
-    labels:
-      - "dependencies"
+      - dependencies
     open-pull-requests-limit: 100
