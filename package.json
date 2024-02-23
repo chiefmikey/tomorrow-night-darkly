@@ -25,7 +25,7 @@
     "@babel/preset-env": "^7.23.9",
     "@babel/preset-react": "^7.23.3",
     "@babel/preset-typescript": "^7.23.3",
-    "@types/koa": "^2.14.0",
+    "@types/koa": "^2.15.0",
     "@types/koa-static": "^4.0.4",
     "@types/react": "^18.2.57",
     "@types/react-dom": "^18.2.19",
