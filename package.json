@@ -20,7 +20,7 @@
     "the-new-css-reset": "^1.11.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.9",
+    "@babel/core": "^7.24.0",
     "@babel/plugin-transform-react-jsx": "^7.23.4",
     "@babel/preset-env": "^7.23.9",
     "@babel/preset-react": "^7.23.3",
