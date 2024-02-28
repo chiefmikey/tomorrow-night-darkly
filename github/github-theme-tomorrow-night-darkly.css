@@ -55,10 +55,11 @@
   --color-workflow-card-bg: #202020 !important;
   --color-btn-active-bg: #202020 !important;
   --color-btn-active-border: #c6c6c6 !important;
-  /* daily contribution 0 background */
+    /* daily contribution 0 background */
   --color-calendar-graph-day-bg: #2e2e2e !important;
   /* daily contribution info background */
   --color-neutral-emphasis-plus: #c6c6c6 !important;
+  --drawer-background-fade: rgb(0, 0, 0, .6) !important;
 }
 
 ::selection {
@@ -67,7 +68,13 @@
 }
 
 ::-moz-selection {
-  background: var(--accent-main) !important; /* Gecko Browsers */
+   background: var(--accent-main) !important; /* Gecko Browsers */
+}
+
+.AppHeader-user {
+  ::backdrop {
+   background-color: var(--drawer-background-fade) !important;
+  }
 }
 
 .AppHeader-button--hasIndicator::before {
@@ -105,7 +112,7 @@ input[type="checkbox"] {
 }
 
 .achievement-badge-sidebar {
-  opacity: .8 !important;
+ opacity: .8 !important;
 }
 
 .octicon-calendar,
