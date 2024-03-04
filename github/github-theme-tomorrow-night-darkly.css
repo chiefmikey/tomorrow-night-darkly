@@ -3,14 +3,13 @@
 :root {
   --accent-main: #b294bb !important;
   --accent-secondary: #c6c6c6 !important;
-  --accent-disabled: rgb(255, 255, 255, .1) !important;
-  --accent-border: rgb(255, 255, 255, .1) !important;
+  --accent-disabled: rgb(255 255 255 / 10%) !important;
+  --accent-border: rgb(255 255 255 / 10%) !important;
   --bg-main: #202020 !important;
   --accent-transparent: transparent !important;
   --color-notifications-row-bg: #202020 !important;
   --color-canvas-default: #202020 !important;
   --color-canvas-subtle: #202020 !important;
-  --color-canvas-subtle: #1a1a1a !important;
   --color-accent-subtle: #1a1a1a !important;
   --color-accent-emphasis: #b294bb !important;
   --rgh-heat-color: #b294bb !important;
@@ -38,43 +37,40 @@
   --color-accent-fg: #c6c6c6 !important;
   --color-btn-text: #c6c6c6 !important;
   --color-btn-primary-text: #c6c6c6 !important;
-  --color-btn-outline-disabled-text: rgb(255, 255, 255, .1) !important;
-  --color-btn-primary-disabled-text: rgb(255, 255, 255, .1) !important;
-  --color-btn-border: rgb(255, 255, 255, .1) !important;
-  --color-border-default: rgb(255, 255, 255, .1) !important;
-  --color-accent-muted: rgb(255, 255, 255, .1) !important;
-  --color-border-muted: rgb(255, 255, 255, .1) !important;
-  --color-btn-hover-border: rgb(255, 255, 255, .1) !important;
+  --color-btn-outline-disabled-text: rgb(255 255 255 / 10%) !important;
+  --color-btn-primary-disabled-text: rgb(255 255 255 / 10%) !important;
+  --color-btn-border: rgb(255 255 255 / 10%) !important;
+  --color-border-default: rgb(255 255 255 / 10%) !important;
+  --color-accent-muted: rgb(255 255 255 / 10%) !important;
+  --color-border-muted: rgb(255 255 255 / 10%) !important;
+  --color-btn-hover-border: rgb(255 255 255 / 10%) !important;
   --color-btn-primary-disabled-bg: transparent !important;
   --color-btn-hover-bg: transparent !important;
   --color-neutral-emphasis: transparent !important;
   --color-shadow-medium: transparent !important;
   --color-fg-muted: #7d7d7d !important;
   --color-canvas-inset: #202020 !important;
-  --color-neutral-muted: rgb(0, 0, 0, .5) !important;
+  --color-neutral-muted: rgb(0 0 0 / 50%) !important;
   --color-workflow-card-bg: #202020 !important;
   --color-btn-active-bg: #202020 !important;
   --color-btn-active-border: #c6c6c6 !important;
+
     /* daily contribution 0 background */
   --color-calendar-graph-day-bg: #2e2e2e !important;
+
   /* daily contribution info background */
   --color-neutral-emphasis-plus: #c6c6c6 !important;
-  --drawer-background-fade: rgb(0, 0, 0, .6) !important;
+  --drawer-background-fade: rgb(0 0 0 / 60%) !important;
 }
 
 ::selection {
-  background: var(--accent-main) !important; /* WebKit/Blink Browsers */
-  opacity: 100%;
+  background: var(--accent-main) !important;
+  opacity: 1;
 }
 
-::-moz-selection {
-   background: var(--accent-main) !important; /* Gecko Browsers */
-}
 
-.AppHeader-user {
-  ::backdrop {
-   background-color: var(--drawer-background-fade) !important;
-  }
+dialog::backdrop {
+  background-color: var(--drawer-background-fade) !important;
 }
 
 .AppHeader-button--hasIndicator::before {
@@ -135,7 +131,7 @@ a:hover,
 }
 
 .btn:disabled:hover,
-.btn[aria-disabled=true] {
+.btn[aria-disabled="true"] {
   text-decoration: none !important;
   color: var(--accent-disabled);
 }
