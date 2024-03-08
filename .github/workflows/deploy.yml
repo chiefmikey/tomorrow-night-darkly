@@ -1,0 +1,74 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+    inputs:
+      invalidate:
+        description: 'Invalidate CloudFront Cache'
+        type: boolean
+        default: true
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    env:
+      DIST_NAME: ${{ vars.DIST_NAME }}
+      S3_BUCKET: ${{ vars.S3_BUCKET }}
+      DEPLOY_DIR: 'public'
+      ENTRY: 'client/src/index.tsx'
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Build
+      run: |
+        set -x
+        npm i
+        sed -i "1i console.log('Updated:', '$(TZ=PST8PDT date)')" ${ENTRY}
+        npm run build:prod
+
+    - name: Configure AWS
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-2
+
+    - name: Sync to S3
+      id: sync
+      run: |
+        aws s3 sync ${DEPLOY_DIR} s3://${S3_BUCKET} --delete
+
+    - name: Invalidate CloudFront
+      id: invalidate
+      if: ${{ github.event_name == 'push' || inputs.invalidate == true }}
+      run: |
+        dist_id="$(aws cloudfront list-distributions \
+          --query "DistributionList.Items[?Comment=='${DIST_NAME}'].Id" \
+          --output text)"
+
+        if [ -z "$dist_id" ]; then
+          echo "No distribution found with comment: ${DIST_NAME}"
+          exit 1
+        fi
+
+        echo "Invalidating ${dist_id} for ${DIST_NAME}"
+          invalidation_id="$(aws cloudfront create-invalidation \
+            --distribution-id "$dist_id" \
+            --paths "/*" \
+            --query "Invalidation.Id" \
+            --output text)"
+
+        echo "Invalidation started: ${invalidation_id}"
+
+        aws cloudfront wait invalidation-completed \
+          --distribution-id "$dist_id" \
+          --id "$invalidation_id"
+
+        echo "Invalidation completed"

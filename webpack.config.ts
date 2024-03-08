@@ -3,7 +3,7 @@ import path from 'node:path';
 import { Configuration } from 'webpack';
 
 const SRC_DIR = path.join(path.resolve(), '/client/src');
-const DIST_DIR = path.join(path.resolve(), '/docs/public/dist');
+const DIST_DIR = path.join(path.resolve(), '/public/dist');
 
 const css = ['style-loader', 'css-loader'];
 const scss = ['style-loader', 'css-loader', 'sass-loader'];
