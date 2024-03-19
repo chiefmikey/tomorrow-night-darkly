@@ -33,6 +33,8 @@
   --color-avatar-border: transparent !important;
   --color-fg-on-emphasis: #202020 !important;
   --fgColor-default: #c6c6c6 !important;
+  --fgColor-link: #b294bb !important;
+  --fgColor-accent: #c6c6c6 !important;
   --color-fg-default: #c6c6c6 !important;
   --color-accent-fg: #c6c6c6 !important;
   --color-btn-text: #c6c6c6 !important;
@@ -54,6 +56,10 @@
   --color-workflow-card-bg: #202020 !important;
   --color-btn-active-bg: #202020 !important;
   --color-btn-active-border: #c6c6c6 !important;
+  --bgColor-default: #202020 !important;
+  --button-default-bgColor-rest: #202020 !important;
+  --bgColor-accent-emphasis: #b294bb !important;
+  --overlay-bgColor: #202020 !important;
 
     /* daily contribution 0 background */
   --color-calendar-graph-day-bg: #2e2e2e !important;
@@ -63,11 +69,14 @@
   --drawer-background-fade: rgb(0 0 0 / 60%) !important;
 }
 
+.AppHeader {
+  --AppHeader-bg: #202020 !important;
+}
+
 ::selection {
   background: var(--accent-main) !important;
   opacity: 1;
 }
-
 
 dialog::backdrop {
   background-color: var(--drawer-background-fade) !important;
@@ -85,7 +94,6 @@ dialog::backdrop {
 .turbo-progress-bar {
   background: #b294bb !important;
 }
-
 
 .AppHeader,
 .UnderlineNav {
