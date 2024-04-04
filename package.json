@@ -39,7 +39,7 @@
     "mikey-pro": "^7.2.3",
     "nodemon": "^3.1.0",
     "prettier": "^3.2.5",
-    "sass": "^1.72.0",
+    "sass": "^1.74.1",
     "sass-loader": "^14.1.1",
     "style-loader": "^3.3.4",
     "stylelint": "^16.3.1",
