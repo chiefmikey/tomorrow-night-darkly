@@ -60,6 +60,44 @@
   --button-default-bgColor-rest: #202020 !important;
   --bgColor-accent-emphasis: #b294bb !important;
   --overlay-bgColor: #202020 !important;
+  --bgColor-muted: #1a1a1a !important;
+  --button-invisible-fgColor-rest: #b294bb !important;
+  --underlineNav-borderColor-active: #b294bb !important;
+  --focus-outlineColor: #b294bb !important;
+  --control-checked-borderColor-rest: #b294bb !important;
+  --borderColor-accent-emphasis: #b294bb !important;
+  --borderColor-attention-muted: #7d7d7d !important;
+  --bgColor-attention-muted: #2e2e2e !important;
+  --borderColor-muted: #2e2e2e !important;
+  --button-primary-bgColor-rest: #202020 !important;
+  --button-primary-bgColor-hover: #202020 !important;
+  --button-primary-borderColor-rest: #2e2e2e !important;
+  --button-primary-borderColor-hover: #b294bb !important;
+  --button-default-borderColor-rest: #2e2e2e !important;
+  --button-default-borderColor-hover: #2e2e2e !important;
+  --button-default-borderColor-active: #2e2e2e !important;
+  --button-primary-borderColor-disabled: #2e2e2e !important;
+  --borderColor-default: #2e2e2e !important;
+  --control-borderColor-rest: #2e2e2e !important;
+  --control-borderColor-hover: #2e2e2e !important;
+  --button-default-bgColor-hover: #2e2e2e !important;
+  --button-default-bgColor-active: #2e2e2e !important;
+  --button-primary-bgColor-active: #2e2e2e !important;
+  --button-primary-bgColor-disabled: #2e2e2e !important;
+  --button-primary-fgColor-rest: #b294bb !important;
+  --button-primary-iconColor-rest: #b294bb !important;
+  --fgColor-muted: #7d7d7d !important;
+  --bgColor-neutral-emphasis: #2e2e2e !important;
+  --fgColor-onEmphasis: #7d7d7d !important;
+  --timelineBadge-bgColor: #2e2e2e !important;
+  --buttonCounter-default-bgColor-rest: #2e2e2e !important;
+  --bgColor-neutral-muted: #2e2e2e !important;
+  --avatar-borderColor: transparent !important;
+  --color-scale-gray-9: #202020 !important;
+  --color-scale-purple-2: #7d7d7d !important;
+  --color-scale-gray-1: #7d7d7d !important;
+  --color-scale-gray-8: #2e2e2e !important;
+
 
     /* daily contribution 0 background */
   --color-calendar-graph-day-bg: #2e2e2e !important;
@@ -71,6 +109,11 @@
 
 .AppHeader {
   --AppHeader-bg: #202020 !important;
+}
+
+.cls-1, .cls-2 {
+  fill: #b294bb !important;
+  stroke: #202020 !important;
 }
 
 ::selection {
@@ -130,12 +173,6 @@ a,
 .btn {
   text-decoration: none !important;
   color: var(--accent-main);
-}
-
-a:hover,
-.btn:hover {
-  text-decoration: none !important;
-  color: var(--color-calendar-graph-day-L3-bg);
 }
 
 .btn:disabled:hover,
