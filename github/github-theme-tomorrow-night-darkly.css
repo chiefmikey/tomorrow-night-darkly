@@ -58,14 +58,18 @@
   --color-btn-active-border: #c6c6c6 !important;
   --bgColor-default: #202020 !important;
   --button-default-bgColor-rest: #202020 !important;
+  --button-default-bgColor-selected: #2e2e2e !important;
   --bgColor-accent-emphasis: #b294bb !important;
+  --bgColor-accent-muted: #2e2e2e !important;
   --overlay-bgColor: #202020 !important;
   --bgColor-muted: #1a1a1a !important;
   --button-invisible-fgColor-rest: #b294bb !important;
   --underlineNav-borderColor-active: #b294bb !important;
   --focus-outlineColor: #b294bb !important;
   --control-checked-borderColor-rest: #b294bb !important;
+  --control-transparent-bgColor-hover: #2e2e2e !important;
   --borderColor-accent-emphasis: #b294bb !important;
+  --borderColor-accent-muted: #202020 !important;
   --borderColor-attention-muted: #7d7d7d !important;
   --bgColor-attention-muted: #2e2e2e !important;
   --borderColor-muted: #2e2e2e !important;
@@ -88,7 +92,7 @@
   --button-primary-iconColor-rest: #b294bb !important;
   --fgColor-muted: #7d7d7d !important;
   --bgColor-neutral-emphasis: #2e2e2e !important;
-  --fgColor-onEmphasis: #7d7d7d !important;
+  --fgColor-onEmphasis: #c6c6c6 !important;
   --timelineBadge-bgColor: #2e2e2e !important;
   --buttonCounter-default-bgColor-rest: #2e2e2e !important;
   --bgColor-neutral-muted: #2e2e2e !important;
@@ -97,6 +101,7 @@
   --color-scale-purple-2: #7d7d7d !important;
   --color-scale-gray-1: #7d7d7d !important;
   --color-scale-gray-8: #2e2e2e !important;
+  --bgColor-emphasis: #2e2e2e !important;
 
 
     /* daily contribution 0 background */
