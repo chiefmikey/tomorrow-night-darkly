@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "airbnb-browser-shims": "^3.3.0",
-    "react": "^18.2.0",
+    "react": "^18.3.0",
     "react-cool-img": "^1.2.12",
     "react-dom": "^18.3.0",
     "react-icons": "^5.1.0",
