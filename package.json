@@ -42,7 +42,7 @@
     "sass": "^1.76.0",
     "sass-loader": "^14.2.1",
     "style-loader": "^4.0.0",
-    "stylelint": "^16.4.0",
+    "stylelint": "^16.5.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
     "url-loader": "^4.1.1",
