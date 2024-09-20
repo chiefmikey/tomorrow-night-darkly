@@ -37,7 +37,7 @@
     "koa-bodyparser": "^4.4.1",
     "koa-static": "^5.0.0",
     "mikey-pro": "^7.5.3",
-    "nodemon": "^3.1.6",
+    "nodemon": "^3.1.7",
     "prettier": "^3.3.3",
     "sass": "^1.79.1",
     "sass-loader": "^16.0.1",
