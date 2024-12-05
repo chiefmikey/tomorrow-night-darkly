@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "airbnb-browser-shims": "^3.3.0",
-    "react": "^18.3.1",
+    "react": "^19.0.0",
     "react-cool-img": "^1.2.12",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
@@ -27,7 +27,7 @@
     "@types/koa__cors": "^5.0.0",
     "@types/koa-bodyparser": "^4.3.12",
     "@types/koa-static": "^4.0.4",
-    "@types/react": "^18.3.13",
+    "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/webpack": "^5.28.5",
     "babel-loader": "^9.2.1",
