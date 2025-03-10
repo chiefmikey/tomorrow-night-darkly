@@ -1,5 +1,4 @@
 /* Tomorrow Night Darkly */
-
 :root {
   --accent-main: #b294bb !important;
   --accent-secondary: #c6c6c6 !important;
@@ -102,21 +101,24 @@
   --color-scale-gray-1: #7d7d7d !important;
   --color-scale-gray-8: #2e2e2e !important;
   --bgColor-emphasis: #2e2e2e !important;
+  --bgColor-inset: #202020 !important;
+  --button-default-bgColor-disabled: #202020 !important;
 
-
-    /* daily contribution 0 background */
+  /* daily contribution 0 background */
   --color-calendar-graph-day-bg: #2e2e2e !important;
 
   /* daily contribution info background */
   --color-neutral-emphasis-plus: #c6c6c6 !important;
   --drawer-background-fade: rgb(0 0 0 / 60%) !important;
+  --overlay-backdrop-bgColor: rgb(0 0 0 / 60%) !important;
 }
 
 .AppHeader {
   --AppHeader-bg: #202020 !important;
 }
 
-.cls-1, .cls-2 {
+.cls-1,
+.cls-2 {
   fill: #b294bb !important;
   stroke: #202020 !important;
 }
@@ -164,7 +166,7 @@ input[type="checkbox"] {
 }
 
 .achievement-badge-sidebar {
- opacity: .8 !important;
+  opacity: .8 !important;
 }
 
 .octicon-calendar,
@@ -184,21 +186,6 @@ a,
 .btn[aria-disabled="true"] {
   text-decoration: none !important;
   color: var(--accent-disabled);
-}
-
-.application-main,
-.Box,
-.Box-row--focus-gray.navigation-focus,
-.BaseStyles__Base-sc-nfjs56-0,
-.Box-sc-g0xbh4-0,
-.types__StyledButton-sc-ws60qy-0,
-.TextInputWrapper__TextInputBaseWrapper-sc-1mqhpbi-0,
-body,
-.flex-auto,
-.Details-content--shown,
-.form-control,
-.Box-header {
-  background-color: var(--bg-main);
 }
 
 .Details-content--shown,
