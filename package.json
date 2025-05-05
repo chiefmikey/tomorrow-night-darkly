@@ -32,7 +32,7 @@
     "@types/webpack": "^5.28.5",
     "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
-    "eslint": "^9.25.1",
+    "eslint": "^9.26.0",
     "koa": "^3.0.0",
     "koa-bodyparser": "^4.4.1",
     "koa-static": "^5.0.0",
