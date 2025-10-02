@@ -12,7 +12,7 @@
     "airbnb-browser-shims": "^3.3.0",
     "react": "^19.1.1",
     "react-cool-img": "^1.2.12",
-    "react-dom": "^19.1.1",
+    "react-dom": "^19.2.0",
     "react-icons": "^5.5.0",
     "the-new-css-reset": "^1.11.3"
   },
@@ -28,7 +28,7 @@
     "@types/koa-bodyparser": "^4.3.12",
     "@types/koa-static": "^4.0.4",
     "@types/react": "^19.1.17",
-    "@types/react-dom": "^19.1.11",
+    "@types/react-dom": "^19.2.0",
     "@types/webpack": "^5.28.5",
     "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
