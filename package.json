@@ -33,7 +33,7 @@
     "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
     "eslint": "^9.37.0",
-    "koa": "^3.0.2",
+    "koa": "^3.0.3",
     "koa-bodyparser": "^4.4.1",
     "koa-static": "^5.0.0",
     "mikey-pro": "^9.0.1",
