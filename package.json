@@ -21,7 +21,7 @@
     "@babel/plugin-transform-react-jsx": "^7.27.1",
     "@babel/preset-env": "^7.28.3",
     "@babel/preset-react": "^7.27.1",
-    "@babel/preset-typescript": "^7.27.1",
+    "@babel/preset-typescript": "^7.28.5",
     "@koa/cors": "^5.0.0",
     "@types/koa": "^3.0.0",
     "@types/koa__cors": "^5.0.0",
