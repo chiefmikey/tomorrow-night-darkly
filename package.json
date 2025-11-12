@@ -28,7 +28,7 @@
     "@types/koa-bodyparser": "^4.3.13",
     "@types/koa-static": "^4.0.4",
     "@types/react": "^19.2.3",
-    "@types/react-dom": "^19.2.2",
+    "@types/react-dom": "^19.2.3",
     "@types/webpack": "^5.28.5",
     "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
