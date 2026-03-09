@@ -1,119 +1,132 @@
 /* Tomorrow Night Darkly */
 :root {
+  /* Custom Theme Variables */
   --accent-main: #b294bb !important;
   --accent-secondary: #c6c6c6 !important;
   --accent-disabled: rgb(255 255 255 / 10%) !important;
   --accent-border: rgb(255 255 255 / 10%) !important;
   --bg-main: #202020 !important;
   --accent-transparent: transparent !important;
-  --color-notifications-row-bg: #202020 !important;
-  --color-canvas-default: #202020 !important;
-  --color-canvas-subtle: #1a1a1a !important;
-  --color-accent-subtle: #1a1a1a !important;
-  --color-accent-emphasis: #b294bb !important;
-  --rgh-heat-color: #b294bb !important;
-  --color-primer-border-active: #b294bb !important;
-  --color-btn-primary-hover-bg: transparent !important;
-  --color-btn-primary-bg: none !important;
-  --color-btn-primary-icon: #c6c6c6 !important;
-  --color-canvas-overlay: #202020 !important;
-  --color-btn-bg: #202020 !important;
-  --color-btn-outline-disabled-bg: #202020 !important;
-  --color-calendar-graph-day-L1-bg: #b294bb57 !important;
-  --color-calendar-graph-day-L2-bg: #b294bb9c !important;
-  --color-calendar-graph-day-L3-bg: #b294bbd4 !important;
-  --color-calendar-graph-day-L4-bg: #b294bb !important;
-  --color-calendar-graph-day-border: transparent !important;
-  --color-calendar-graph-day-L1-border: transparent !important;
-  --color-calendar-graph-day-L2-border: transparent !important;
-  --color-calendar-graph-day-L3-border: transparent !important;
-  --color-calendar-graph-day-L4-border: transparent !important;
-  --color-avatar-bg: transparent !important;
-  --color-avatar-border: transparent !important;
-  --color-fg-on-emphasis: #202020 !important;
-  --fgColor-default: #c6c6c6 !important;
-  --fgColor-link: #b294bb !important;
-  --fgColor-accent: #c6c6c6 !important;
-  --color-fg-default: #c6c6c6 !important;
-  --color-accent-fg: #c6c6c6 !important;
-  --color-btn-text: #c6c6c6 !important;
-  --color-btn-primary-text: #c6c6c6 !important;
-  --color-btn-outline-disabled-text: rgb(255 255 255 / 10%) !important;
-  --color-btn-primary-disabled-text: rgb(255 255 255 / 10%) !important;
-  --color-btn-border: rgb(255 255 255 / 10%) !important;
-  --color-border-default: rgb(255 255 255 / 10%) !important;
-  --color-accent-muted: rgb(255 255 255 / 10%) !important;
-  --color-border-muted: rgb(255 255 255 / 10%) !important;
-  --color-btn-hover-border: rgb(255 255 255 / 10%) !important;
-  --color-btn-primary-disabled-bg: transparent !important;
-  --color-btn-hover-bg: transparent !important;
-  --color-neutral-emphasis: transparent !important;
-  --color-shadow-medium: transparent !important;
-  --color-fg-muted: #7d7d7d !important;
-  --color-canvas-inset: #202020 !important;
-  --color-neutral-muted: rgb(0 0 0 / 50%) !important;
-  --color-workflow-card-bg: #202020 !important;
-  --color-btn-active-bg: #202020 !important;
-  --color-btn-active-border: #c6c6c6 !important;
+  --drawer-background-fade: rgb(0 0 0 / 60%) !important;
+
+  /* Background Colors */
   --bgColor-default: #202020 !important;
-  --button-default-bgColor-rest: #202020 !important;
-  --button-default-bgColor-selected: #2e2e2e !important;
+  --bgColor-muted: #1a1a1a !important;
+  --bgColor-inset: #202020 !important;
+  --bgColor-emphasis: #2e2e2e !important;
+  --bgColor-inverse: #c6c6c6 !important;
+  --bgColor-disabled: #202020 !important;
   --bgColor-accent-emphasis: #b294bb !important;
   --bgColor-accent-muted: #2e2e2e !important;
-  --overlay-bgColor: #202020 !important;
-  --bgColor-muted: #1a1a1a !important;
-  --button-invisible-fgColor-rest: #b294bb !important;
-  --underlineNav-borderColor-active: #b294bb !important;
-  --focus-outlineColor: #b294bb !important;
-  --control-checked-borderColor-rest: #b294bb !important;
-  --control-transparent-bgColor-hover: #2e2e2e !important;
+  --bgColor-attention-muted: #2e2e2e !important;
+  --bgColor-neutral-emphasis: #2e2e2e !important;
+  --bgColor-neutral-muted: #2e2e2e !important;
+
+  /* Foreground Colors */
+  --fgColor-default: #c6c6c6 !important;
+  --fgColor-muted: #7d7d7d !important;
+  --fgColor-onEmphasis: #c6c6c6 !important;
+  --fgColor-link: #b294bb !important;
+  --fgColor-accent: #c6c6c6 !important;
+  --fgColor-disabled: rgb(255 255 255 / 10%) !important;
+
+  /* Border Colors */
+  --borderColor-default: #2e2e2e !important;
+  --borderColor-muted: #2e2e2e !important;
+  --borderColor-emphasis: #7d7d7d !important;
   --borderColor-accent-emphasis: #b294bb !important;
   --borderColor-accent-muted: #202020 !important;
   --borderColor-attention-muted: #7d7d7d !important;
-  --bgColor-attention-muted: #2e2e2e !important;
-  --borderColor-muted: #2e2e2e !important;
-  --button-primary-bgColor-rest: #202020 !important;
-  --button-primary-bgColor-hover: #202020 !important;
-  --button-primary-borderColor-rest: #2e2e2e !important;
-  --button-primary-borderColor-hover: #b294bb !important;
+  --borderColor-translucent: rgb(255 255 255 / 10%) !important;
+
+  /* Overlay */
+  --overlay-bgColor: #202020 !important;
+  --overlay-borderColor: #2e2e2e !important;
+  --overlay-backdrop-bgColor: rgb(0 0 0 / 60%) !important;
+
+  /* Button - Default */
+  --button-default-bgColor-rest: #202020 !important;
+  --button-default-bgColor-hover: #2e2e2e !important;
+  --button-default-bgColor-active: #2e2e2e !important;
+  --button-default-bgColor-selected: #2e2e2e !important;
+  --button-default-bgColor-disabled: #202020 !important;
+  --button-default-fgColor-rest: #c6c6c6 !important;
+  --button-default-fgColor-disabled: rgb(255 255 255 / 10%) !important;
   --button-default-borderColor-rest: #2e2e2e !important;
   --button-default-borderColor-hover: #2e2e2e !important;
   --button-default-borderColor-active: #2e2e2e !important;
-  --button-primary-borderColor-disabled: #2e2e2e !important;
-  --borderColor-default: #2e2e2e !important;
-  --control-borderColor-rest: #2e2e2e !important;
-  --control-borderColor-hover: #2e2e2e !important;
-  --button-default-bgColor-hover: #2e2e2e !important;
-  --button-default-bgColor-active: #2e2e2e !important;
+  --button-default-borderColor-disabled: #2e2e2e !important;
+
+  /* Button - Primary */
+  --button-primary-bgColor-rest: #202020 !important;
+  --button-primary-bgColor-hover: #202020 !important;
   --button-primary-bgColor-active: #2e2e2e !important;
   --button-primary-bgColor-disabled: #2e2e2e !important;
   --button-primary-fgColor-rest: #b294bb !important;
+  --button-primary-fgColor-disabled: rgb(255 255 255 / 10%) !important;
   --button-primary-iconColor-rest: #b294bb !important;
-  --fgColor-muted: #7d7d7d !important;
-  --bgColor-neutral-emphasis: #2e2e2e !important;
-  --fgColor-onEmphasis: #c6c6c6 !important;
-  --timelineBadge-bgColor: #2e2e2e !important;
+  --button-primary-borderColor-rest: #2e2e2e !important;
+  --button-primary-borderColor-hover: #b294bb !important;
+  --button-primary-borderColor-disabled: #2e2e2e !important;
+
+  /* Button - Invisible/Counter */
+  --button-invisible-fgColor-rest: #b294bb !important;
   --buttonCounter-default-bgColor-rest: #2e2e2e !important;
-  --bgColor-neutral-muted: #2e2e2e !important;
+
+  /* Controls */
+  --control-bgColor-rest: #202020 !important;
+  --control-bgColor-hover: #2e2e2e !important;
+  --control-bgColor-active: #2e2e2e !important;
+  --control-bgColor-disabled: #202020 !important;
+  --control-fgColor-rest: #c6c6c6 !important;
+  --control-fgColor-disabled: rgb(255 255 255 / 10%) !important;
+  --control-borderColor-rest: #2e2e2e !important;
+  --control-borderColor-hover: #2e2e2e !important;
+  --control-borderColor-emphasis: #7d7d7d !important;
+  --control-checked-bgColor-rest: #b294bb !important;
+  --control-checked-borderColor-rest: #b294bb !important;
+  --control-transparent-bgColor-hover: #2e2e2e !important;
+
+  /* Header */
+  --header-bgColor: #202020 !important;
+  --header-fgColor-default: #c6c6c6 !important;
+  --header-fgColor-logo: #c6c6c6 !important;
+  --header-borderColor-divider: #2e2e2e !important;
+
+  /* Avatar */
+  --avatar-bgColor: transparent !important;
   --avatar-borderColor: transparent !important;
-  --color-scale-gray-9: #202020 !important;
-  --color-scale-purple-2: #7d7d7d !important;
-  --color-scale-gray-1: #7d7d7d !important;
-  --color-scale-gray-8: #2e2e2e !important;
-  --bgColor-emphasis: #2e2e2e !important;
-  --bgColor-inset: #202020 !important;
-  --button-default-bgColor-disabled: #202020 !important;
 
-  /* daily contribution 0 background */
-  --color-calendar-graph-day-bg: #2e2e2e !important;
+  /* Timeline */
+  --timelineBadge-bgColor: #2e2e2e !important;
 
-  /* daily contribution info background */
-  --color-neutral-emphasis-plus: #c6c6c6 !important;
-  --drawer-background-fade: rgb(0 0 0 / 60%) !important;
-  --overlay-backdrop-bgColor: rgb(0 0 0 / 60%) !important;
+  /* Navigation */
+  --underlineNav-borderColor-active: #b294bb !important;
+  --focus-outlineColor: #b294bb !important;
+  --page-header-bgColor: #202020 !important;
+
+  /* Contribution Graph */
+  --contribution-default-bgColor-0: #2e2e2e !important;
+  --contribution-default-bgColor-1: #b294bb57 !important;
+  --contribution-default-bgColor-2: #b294bb9c !important;
+  --contribution-default-bgColor-3: #b294bbd4 !important;
+  --contribution-default-bgColor-4: #b294bb !important;
+  --contribution-default-borderColor-0: transparent !important;
+  --contribution-default-borderColor-1: transparent !important;
+  --contribution-default-borderColor-2: transparent !important;
+  --contribution-default-borderColor-3: transparent !important;
+  --contribution-default-borderColor-4: transparent !important;
+
+  /* Legacy Variables (still used by GitHub) */
+  --color-notifications-row-bg: #202020 !important;
+  --color-workflow-card-bg: #202020 !important;
+
+  /* Third-party Extension Variables */
+  --rgh-heat-color: #b294bb !important;
 }
 
-.AppHeader {
+.AppHeader,
+.GlobalNav {
   --AppHeader-bg: #202020 !important;
 }
 
@@ -137,8 +150,8 @@ dialog::backdrop {
 }
 
 .js-highlight-blob {
-  fill: var(--color-calendar-graph-day-L2-bg);
-  stroke: var(--color-calendar-graph-day-L2-bg);
+  fill: var(--contribution-default-bgColor-2);
+  stroke: var(--contribution-default-bgColor-2);
 }
 
 .turbo-progress-bar {
@@ -146,6 +159,7 @@ dialog::backdrop {
 }
 
 .AppHeader,
+.GlobalNav,
 .UnderlineNav {
   box-shadow: none !important;
 }
@@ -191,5 +205,5 @@ a,
 .Details-content--shown,
 .Box-row {
   box-shadow: none !important;
-  border-color: var(--color-btn-border);
+  border-color: var(--borderColor-default);
 }
