@@ -2,8 +2,8 @@
 
 _Status: COMPLETED_
 _Completed: 2026-03-09_
-_LastCompletedStep: 3_
-_TotalSteps: 3_
+_LastCompletedStep: 4_
+_TotalSteps: 4_
 
 ## Context
 
@@ -79,6 +79,14 @@ GitHub migrated from `--color-*` CSS custom properties to Primer's new design to
 - Update research doc with migration findings
 - Update context doc
 
+### Step 4: Comprehensive token coverage (v2)
+- Fetch full Primer primitives dark token definitions from primer/primitives repo via gh CLI
+- Categorize all ~894 GitHub design tokens by family (bgColor, fgColor, borderColor, shadow, control, button, etc.)
+- Map each token to an appropriate Tomorrow Night Darkly palette color
+- Expand theme from ~108 tokens (v1) to ~470 tokens (v2)
+- Target selector: `[data-color-mode="dark"][data-dark-theme="dark"]` to match GitHub's actual token definition scope
+- Verify in browser that expanded coverage eliminates remaining GitHub default color bleed-through
+
 ## Verification Plan
 - Visual inspection of GitHub profile page with theme applied
 - Check contribution graph colors
@@ -87,7 +95,7 @@ GitHub migrated from `--color-*` CSS custom properties to Primer's new design to
 
 ## Summary
 
-Migrated the GitHub Stylus theme from deprecated `--color-*` CSS custom properties to GitHub's current Primer design token naming convention. Removed 48 dead variables, added 30+ new tokens (contribution graph, header, avatar, control, overlay, button state variants), and updated selectors for GitHub's `.GlobalNav` header class (replacing `.AppHeader`).
+Migrated the GitHub Stylus theme from deprecated `--color-*` CSS custom properties to GitHub's current Primer design token naming convention. v1 removed 48 dead variables and added 30+ new tokens (~108 total). v2 expanded coverage to ~470 tokens (out of ~894 GitHub defines) by fetching the full Primer primitives source, categorizing all token families, and mapping them to the Tomorrow Night Darkly palette. Updated selectors to target `[data-color-mode="dark"][data-dark-theme="dark"]` to match GitHub's actual token definition scope, and updated component selectors for GitHub's `.GlobalNav` header class (replacing `.AppHeader`).
 
 ## Execution Journal
 
@@ -114,3 +122,12 @@ Migrated the GitHub Stylus theme from deprecated `--color-*` CSS custom properti
 ### Step 3: Updated selectors and documentation
 - Added `.GlobalNav` alongside `.AppHeader` in selector rules
 - Updated plan status to COMPLETED
+
+### Step 4: Comprehensive token coverage (v2)
+- Discovered v1 only covered ~108 of ~894 tokens GitHub defines in dark mode, leaving significant default color bleed-through
+- Fetched full Primer primitives dark token definitions from `primer/primitives` repo via `gh api` / `gh` CLI
+- Categorized all token families: bgColor, fgColor, borderColor, shadow, button, control, counter, header, avatar, overlay, selectMenu, diffBlob, codemirror, codeMirror, checks, timeline, actionListItem, topicTag, menu, underlineNav, actionList, treeViewItem, stack, card, tooltip, and more
+- Mapped each token to the Tomorrow Night Darkly palette using consistent rules per category
+- Expanded theme from ~108 tokens to ~470 tokens
+- Changed primary selector from `:root` to `[data-color-mode="dark"][data-dark-theme="dark"]` to match where GitHub actually defines its tokens
+- Verified in browser that expanded coverage eliminates remaining GitHub default color bleed-through
