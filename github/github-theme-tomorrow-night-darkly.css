@@ -1,6 +1,8 @@
 /* Tomorrow Night Darkly */
 :root {
-  /* Custom Theme Variables */
+  /* ================================================================
+     Custom Theme Variables
+     ================================================================ */
   --accent-main: #b294bb !important;
   --accent-secondary: #c6c6c6 !important;
   --accent-disabled: rgb(255 255 255 / 10%) !important;
@@ -9,42 +11,172 @@
   --accent-transparent: transparent !important;
   --drawer-background-fade: rgb(0 0 0 / 60%) !important;
 
-  /* Background Colors */
+  /* ================================================================
+     Background Colors
+     ================================================================ */
   --bgColor-default: #202020 !important;
   --bgColor-muted: #1a1a1a !important;
   --bgColor-inset: #202020 !important;
   --bgColor-emphasis: #2e2e2e !important;
   --bgColor-inverse: #c6c6c6 !important;
   --bgColor-disabled: #202020 !important;
+  --bgColor-transparent: transparent !important;
+  --bgColor-black: #101010 !important;
+  --bgColor-white: #c6c6c6 !important;
+
+  /* Background - Accent */
   --bgColor-accent-emphasis: #b294bb !important;
   --bgColor-accent-muted: #2e2e2e !important;
-  --bgColor-attention-muted: #2e2e2e !important;
+
+  /* Background - Neutral */
   --bgColor-neutral-emphasis: #2e2e2e !important;
   --bgColor-neutral-muted: #2e2e2e !important;
 
-  /* Foreground Colors */
+  /* Background - Semantic (KEEP GitHub defaults) */
+  --bgColor-attention-emphasis: #9e6a03 !important;
+  --bgColor-attention-muted: #bb800926 !important;
+  --bgColor-danger-emphasis: #da3633 !important;
+  --bgColor-danger-muted: #f851491a !important;
+  --bgColor-success-emphasis: #238636 !important;
+  --bgColor-success-muted: #2ea04326 !important;
+  --bgColor-severe-emphasis: #bd561d !important;
+  --bgColor-severe-muted: #db6d281a !important;
+  --bgColor-done-emphasis: #8957e5 !important;
+  --bgColor-done-muted: #ab7df826 !important;
+  --bgColor-sponsors-emphasis: #bf4b8a !important;
+  --bgColor-sponsors-muted: #db61a21a !important;
+
+  /* Background - State References (KEEP var refs) */
+  --bgColor-open-emphasis: var(--bgColor-success-emphasis) !important;
+  --bgColor-open-muted: var(--bgColor-success-muted) !important;
+  --bgColor-closed-emphasis: var(--bgColor-danger-emphasis) !important;
+  --bgColor-closed-muted: var(--bgColor-danger-muted) !important;
+  --bgColor-draft-emphasis: var(--bgColor-neutral-emphasis) !important;
+  --bgColor-draft-muted: var(--bgColor-neutral-muted) !important;
+  --bgColor-upsell-emphasis: var(--bgColor-done-emphasis) !important;
+  --bgColor-upsell-muted: var(--bgColor-done-muted) !important;
+
+  /* ================================================================
+     Foreground Colors
+     ================================================================ */
   --fgColor-default: #c6c6c6 !important;
   --fgColor-muted: #7d7d7d !important;
   --fgColor-onEmphasis: #c6c6c6 !important;
   --fgColor-link: #b294bb !important;
   --fgColor-accent: #c6c6c6 !important;
   --fgColor-disabled: rgb(255 255 255 / 10%) !important;
+  --fgColor-white: #c6c6c6 !important;
+  --fgColor-black: #202020 !important;
+  --fgColor-neutral: #7d7d7d !important;
+  --fgColor-onInverse: #202020 !important;
 
-  /* Border Colors */
+  /* Foreground - Semantic (KEEP GitHub defaults) */
+  --fgColor-success: #56d364 !important;
+  --fgColor-attention: #d29922 !important;
+  --fgColor-severe: #db6d28 !important;
+  --fgColor-danger: #f85149 !important;
+  --fgColor-done: #ab7df8 !important;
+  --fgColor-sponsors: #db61a2 !important;
+
+  /* Foreground - State References (KEEP var refs) */
+  --fgColor-open: var(--fgColor-success) !important;
+  --fgColor-closed: var(--fgColor-danger) !important;
+  --fgColor-draft: var(--fgColor-neutral) !important;
+  --fgColor-upsell: var(--fgColor-done) !important;
+
+  /* ================================================================
+     Border Colors
+     ================================================================ */
   --borderColor-default: #2e2e2e !important;
   --borderColor-muted: #2e2e2e !important;
   --borderColor-emphasis: #7d7d7d !important;
-  --borderColor-accent-emphasis: #b294bb !important;
-  --borderColor-accent-muted: #202020 !important;
-  --borderColor-attention-muted: #7d7d7d !important;
   --borderColor-translucent: rgb(255 255 255 / 10%) !important;
 
-  /* Overlay */
-  --overlay-bgColor: #202020 !important;
-  --overlay-borderColor: #2e2e2e !important;
-  --overlay-backdrop-bgColor: rgb(0 0 0 / 60%) !important;
+  /* Border - Accent */
+  --borderColor-accent-emphasis: #b294bb !important;
+  --borderColor-accent-muted: #202020 !important;
 
-  /* Button - Default */
+  /* Border - Neutral */
+  --borderColor-neutral-emphasis: #7d7d7d !important;
+  --borderColor-neutral-muted: var(--borderColor-default) !important;
+
+  /* Border - Semantic (KEEP GitHub defaults) */
+  --borderColor-attention-emphasis: #9e6a03 !important;
+  --borderColor-attention-muted: #bb800966 !important;
+  --borderColor-danger-emphasis: #da3633 !important;
+  --borderColor-danger-muted: #f8514966 !important;
+  --borderColor-success-emphasis: #238636 !important;
+  --borderColor-success-muted: #2ea04366 !important;
+  --borderColor-severe-emphasis: #bd561d !important;
+  --borderColor-severe-muted: #db6d2866 !important;
+  --borderColor-done-emphasis: #8957e5 !important;
+  --borderColor-done-muted: #ab7df866 !important;
+  --borderColor-sponsors-emphasis: #bf4b8a !important;
+  --borderColor-sponsors-muted: #db61a266 !important;
+
+  /* Border - State References (KEEP var refs) */
+  --borderColor-open-emphasis: var(--borderColor-success-emphasis) !important;
+  --borderColor-open-muted: var(--borderColor-success-muted) !important;
+  --borderColor-closed-emphasis: var(--borderColor-danger-emphasis) !important;
+  --borderColor-closed-muted: var(--borderColor-danger-muted) !important;
+  --borderColor-draft-emphasis: var(--borderColor-emphasis) !important;
+  --borderColor-draft-muted: var(--borderColor-muted) !important;
+  --borderColor-upsell-emphasis: var(--borderColor-done-emphasis) !important;
+  --borderColor-upsell-muted: var(--borderColor-done-muted) !important;
+
+  /* ================================================================
+     Border Compound Tokens (color + style + width)
+     ================================================================ */
+  --border-default: 0.0625rem solid #2e2e2e !important;
+  --border-muted: 0.0625rem solid #2e2e2e !important;
+
+  /* Border Compound - Accent */
+  --border-accent-emphasis: 0.0625rem solid #b294bb !important;
+  --border-accent-muted: 0.0625rem solid #202020 !important;
+
+  /* Border Compound - Neutral */
+  --border-neutral-emphasis: 0.0625rem solid var(--borderColor-neutral-emphasis) !important;
+
+  /* Border Compound - Semantic (KEEP GitHub defaults) */
+  --border-attention-emphasis: 0.0625rem solid #9e6a03 !important;
+  --border-attention-muted: 0.0625rem solid #bb800966 !important;
+  --border-danger-emphasis: 0.0625rem solid #da3633 !important;
+  --border-danger-muted: 0.0625rem solid #f8514966 !important;
+  --border-success-emphasis: 0.0625rem solid #238636 !important;
+  --border-success-muted: 0.0625rem solid #2ea04366 !important;
+  --border-severe-emphasis: 0.0625rem solid #bd561d !important;
+  --border-severe-muted: 0.0625rem solid #db6d2866 !important;
+  --border-done-emphasis: 0.0625rem solid #8957e5 !important;
+  --border-done-muted: 0.0625rem solid #ab7df866 !important;
+  --border-sponsors-emphasis: 0.0625rem solid #bf4b8a !important;
+  --border-sponsors-muted: 0.0625rem solid #db61a266 !important;
+
+  /* Border Compound - State References (KEEP var refs) */
+  --border-open-emphasis: var(--border-success-emphasis) !important;
+  --border-open-muted: var(--border-success-muted) !important;
+  --border-closed-emphasis: var(--border-danger-emphasis) !important;
+  --border-closed-muted: var(--border-danger-muted) !important;
+  --border-draft-emphasis: 0.0625rem solid var(--borderColor-emphasis) !important;
+  --border-draft-muted: 0.0625rem solid var(--borderColor-muted) !important;
+  --border-upsell-emphasis: var(--border-done-emphasis) !important;
+  --border-upsell-muted: var(--border-done-muted) !important;
+
+  /* ================================================================
+     Shadow Tokens
+     ================================================================ */
+  --shadow-resting-xsmall: 0px 1px 0px 0px #00000066 !important;
+  --shadow-resting-small: 0px 1px 0px 0px #00000066 !important;
+  --shadow-resting-medium: 0px 1px 0px 0px #00000066 !important;
+  --shadow-floating-small: 0px 0px 0px 1px #2e2e2e, 0px 6px 12px -3px #00000066, 0px 6px 18px 0px #00000066 !important;
+  --shadow-floating-medium: 0px 0px 0px 1px #2e2e2e, 0px 8px 16px -4px #00000066, 0px 4px 32px -4px #00000066, 0px 24px 48px -12px #00000066, 0px 48px 96px -24px #00000066 !important;
+  --shadow-floating-large: 0px 0px 0px 1px #2e2e2e, 0px 12px 28px -4px #00000066, 0px 8px 48px -8px #00000066, 0px 32px 64px -16px #00000066, 0px 64px 128px -32px #00000066 !important;
+  --shadow-floating-xlarge: 0px 0px 0px 1px #2e2e2e, 0px 16px 32px -4px #00000066, 0px 12px 56px -8px #00000066, 0px 40px 80px -16px #00000066, 0px 80px 160px -40px #00000066 !important;
+  --shadow-inset: inset 0px 1px 0px 0px #0000001a !important;
+  --shadow-highlight: inset 0px 1px 0px 0px #ffffff0d !important;
+
+  /* ================================================================
+     Button - Default
+     ================================================================ */
   --button-default-bgColor-rest: #202020 !important;
   --button-default-bgColor-hover: #2e2e2e !important;
   --button-default-bgColor-active: #2e2e2e !important;
@@ -56,8 +188,11 @@
   --button-default-borderColor-hover: #2e2e2e !important;
   --button-default-borderColor-active: #2e2e2e !important;
   --button-default-borderColor-disabled: #2e2e2e !important;
+  --button-default-shadow-resting: 0px 0px 0px 0px #000, 0px 0px 0px 0px #000 !important;
 
-  /* Button - Primary */
+  /* ================================================================
+     Button - Primary
+     ================================================================ */
   --button-primary-bgColor-rest: #202020 !important;
   --button-primary-bgColor-hover: #202020 !important;
   --button-primary-bgColor-active: #2e2e2e !important;
@@ -67,45 +202,168 @@
   --button-primary-iconColor-rest: #b294bb !important;
   --button-primary-borderColor-rest: #2e2e2e !important;
   --button-primary-borderColor-hover: #b294bb !important;
+  --button-primary-borderColor-active: #b294bb !important;
   --button-primary-borderColor-disabled: #2e2e2e !important;
+  --button-primary-shadow-selected: 0px 0px 0px 0px #000 !important;
 
-  /* Button - Invisible/Counter */
+  /* ================================================================
+     Button - Outline
+     ================================================================ */
+  --button-outline-bgColor-rest: var(--control-bgColor-rest) !important;
+  --button-outline-bgColor-hover: var(--bgColor-accent-emphasis) !important;
+  --button-outline-bgColor-active: #2e2e2e !important;
+  --button-outline-bgColor-disabled: var(--control-bgColor-disabled) !important;
+  --button-outline-fgColor-rest: #b294bb !important;
+  --button-outline-fgColor-hover: var(--fgColor-onEmphasis) !important;
+  --button-outline-fgColor-active: var(--fgColor-onEmphasis) !important;
+  --button-outline-fgColor-disabled: var(--fgColor-disabled) !important;
+  --button-outline-borderColor-rest: var(--control-borderColor-rest) !important;
+  --button-outline-borderColor-hover: var(--button-primary-borderColor-hover) !important;
+  --button-outline-borderColor-active: var(--button-primary-borderColor-active) !important;
+  --button-outline-borderColor-disabled: var(--control-borderColor-disabled) !important;
+  --button-outline-iconColor-rest: #b294bb !important;
+  --button-outline-iconColor-hover: var(--fgColor-onEmphasis) !important;
+  --button-outline-shadow-selected: 0px 0px 0px 0px #000 !important;
+
+  /* ================================================================
+     Button - Danger (KEEP semantic colors)
+     ================================================================ */
+  --button-danger-bgColor-rest: var(--control-bgColor-rest) !important;
+  --button-danger-bgColor-hover: #da3633 !important;
+  --button-danger-bgColor-active: #b62324 !important;
+  --button-danger-bgColor-disabled: var(--control-bgColor-disabled) !important;
+  --button-danger-fgColor-rest: var(--fgColor-danger) !important;
+  --button-danger-fgColor-hover: var(--fgColor-onEmphasis) !important;
+  --button-danger-fgColor-active: var(--fgColor-onEmphasis) !important;
+  --button-danger-fgColor-disabled: var(--fgColor-disabled) !important;
+  --button-danger-borderColor-rest: var(--control-borderColor-rest) !important;
+  --button-danger-borderColor-hover: var(--borderColor-danger-emphasis) !important;
+  --button-danger-borderColor-active: var(--borderColor-danger-emphasis) !important;
+  --button-danger-borderColor-disabled: var(--control-borderColor-disabled) !important;
+  --button-danger-iconColor-rest: var(--fgColor-danger) !important;
+  --button-danger-iconColor-hover: var(--fgColor-onEmphasis) !important;
+  --button-danger-shadow-selected: 0px 0px 0px 0px #000 !important;
+
+  /* ================================================================
+     Button - Invisible
+     ================================================================ */
+  --button-invisible-bgColor-rest: transparent !important;
+  --button-invisible-bgColor-hover: var(--control-transparent-bgColor-hover) !important;
+  --button-invisible-bgColor-active: var(--control-transparent-bgColor-active) !important;
+  --button-invisible-bgColor-disabled: var(--control-bgColor-disabled) !important;
   --button-invisible-fgColor-rest: #b294bb !important;
-  --buttonCounter-default-bgColor-rest: #2e2e2e !important;
+  --button-invisible-fgColor-hover: var(--fgColor-default) !important;
+  --button-invisible-fgColor-active: var(--fgColor-default) !important;
+  --button-invisible-fgColor-disabled: var(--fgColor-disabled) !important;
+  --button-invisible-borderColor-rest: transparent !important;
+  --button-invisible-borderColor-hover: transparent !important;
+  --button-invisible-borderColor-active: transparent !important;
+  --button-invisible-borderColor-disabled: transparent !important;
+  --button-invisible-iconColor-rest: var(--fgColor-muted) !important;
+  --button-invisible-iconColor-hover: var(--fgColor-default) !important;
+  --button-invisible-iconColor-disabled: var(--fgColor-disabled) !important;
 
-  /* Controls */
+  /* ================================================================
+     Button Counter
+     ================================================================ */
+  --buttonCounter-default-bgColor-rest: #2e2e2e !important;
+  --buttonCounter-default-bgColor-hover: var(--bgColor-neutral-muted) !important;
+  --buttonCounter-default-bgColor-disabled: var(--bgColor-neutral-muted) !important;
+  --buttonCounter-default-fgColor-rest: var(--fgColor-default) !important;
+  --buttonCounter-default-fgColor-hover: var(--fgColor-default) !important;
+  --buttonCounter-default-fgColor-disabled: var(--fgColor-disabled) !important;
+  --buttonCounter-outline-bgColor-rest: var(--bgColor-neutral-muted) !important;
+  --buttonCounter-outline-bgColor-hover: var(--bgColor-accent-emphasis) !important;
+  --buttonCounter-outline-bgColor-disabled: var(--bgColor-neutral-muted) !important;
+  --buttonCounter-outline-fgColor-rest: #b294bb !important;
+  --buttonCounter-outline-fgColor-hover: var(--fgColor-onEmphasis) !important;
+  --buttonCounter-outline-fgColor-disabled: var(--fgColor-disabled) !important;
+  --buttonCounter-danger-bgColor-rest: var(--bgColor-neutral-muted) !important;
+  --buttonCounter-danger-bgColor-hover: var(--bgColor-danger-emphasis) !important;
+  --buttonCounter-danger-bgColor-disabled: var(--bgColor-neutral-muted) !important;
+  --buttonCounter-danger-fgColor-rest: var(--fgColor-danger) !important;
+  --buttonCounter-danger-fgColor-hover: var(--fgColor-onEmphasis) !important;
+  --buttonCounter-danger-fgColor-disabled: var(--fgColor-disabled) !important;
+  --buttonCounter-primary-bgColor-rest: #b294bb33 !important;
+  --buttonCounter-primary-fgColor-rest: var(--fgColor-onEmphasis) !important;
+  --buttonCounter-invisible-bgColor-rest: var(--bgColor-neutral-muted) !important;
+  --buttonCounter-invisible-fgColor-rest: var(--fgColor-default) !important;
+
+  /* ================================================================
+     Controls
+     ================================================================ */
   --control-bgColor-rest: #202020 !important;
   --control-bgColor-hover: #2e2e2e !important;
   --control-bgColor-active: #2e2e2e !important;
   --control-bgColor-disabled: #202020 !important;
-  --control-fgColor-rest: #c6c6c6 !important;
-  --control-fgColor-disabled: rgb(255 255 255 / 10%) !important;
   --control-borderColor-rest: #2e2e2e !important;
-  --control-borderColor-hover: #2e2e2e !important;
+  --control-borderColor-active: var(--control-borderColor-rest) !important;
+  --control-borderColor-disabled: #2e2e2e !important;
   --control-borderColor-emphasis: #7d7d7d !important;
-  --control-checked-bgColor-rest: #b294bb !important;
-  --control-checked-borderColor-rest: #b294bb !important;
-  --control-transparent-bgColor-hover: #2e2e2e !important;
+  --control-borderColor-hover: var(--control-borderColor-rest) !important;
+  --control-fgColor-rest: var(--fgColor-default) !important;
+  --control-fgColor-disabled: var(--fgColor-disabled) !important;
+  --control-fgColor-placeholder: var(--fgColor-muted) !important;
+  --control-iconColor-rest: var(--fgColor-muted) !important;
 
-  /* Header */
+  /* Controls - Checked */
+  --control-checked-bgColor-rest: #b294bb !important;
+  --control-checked-bgColor-hover: #b294bb !important;
+  --control-checked-bgColor-active: var(--bgColor-accent-emphasis) !important;
+  --control-checked-bgColor-disabled: #2e2e2e !important;
+  --control-checked-borderColor-rest: #b294bb !important;
+  --control-checked-borderColor-hover: var(--borderColor-accent-emphasis) !important;
+  --control-checked-borderColor-active: var(--borderColor-accent-emphasis) !important;
+  --control-checked-borderColor-disabled: var(--control-bgColor-disabled) !important;
+  --control-checked-fgColor-rest: #c6c6c6 !important;
+  --control-checked-fgColor-disabled: #202020 !important;
+
+  /* Controls - Danger */
+  --control-danger-bgColor-active: var(--bgColor-danger-emphasis) !important;
+  --control-danger-bgColor-hover: var(--bgColor-danger-emphasis) !important;
+  --control-danger-fgColor-hover: var(--fgColor-onEmphasis) !important;
+  --control-danger-fgColor-rest: var(--fgColor-danger) !important;
+
+  /* Controls - Transparent */
+  --control-transparent-bgColor-rest: transparent !important;
+  --control-transparent-bgColor-hover: #2e2e2e !important;
+  --control-transparent-bgColor-active: #3a3a3a40 !important;
+  --control-transparent-bgColor-disabled: var(--bgColor-disabled) !important;
+  --control-transparent-bgColor-selected: #3a3a3a33 !important;
+  --control-transparent-borderColor-rest: transparent !important;
+  --control-transparent-borderColor-hover: transparent !important;
+  --control-transparent-borderColor-active: transparent !important;
+
+  /* ================================================================
+     Header
+     ================================================================ */
   --header-bgColor: #202020 !important;
   --header-fgColor-default: #c6c6c6 !important;
   --header-fgColor-logo: #c6c6c6 !important;
   --header-borderColor-divider: #2e2e2e !important;
+  --headerSearch-bgColor: #1a1a1a !important;
+  --headerSearch-borderColor: #2e2e2e !important;
 
-  /* Avatar */
+  /* ================================================================
+     Avatar
+     ================================================================ */
   --avatar-bgColor: transparent !important;
   --avatar-borderColor: transparent !important;
+  --avatar-shadow: 0px 0px 0px 2px #202020 !important;
+  --avatarStack-fade-bgColor-default: #2e2e2e !important;
+  --avatarStack-fade-bgColor-muted: #2e2e2e !important;
 
-  /* Timeline */
-  --timelineBadge-bgColor: #2e2e2e !important;
+  /* ================================================================
+     Overlay
+     ================================================================ */
+  --overlay-bgColor: #202020 !important;
+  --overlay-borderColor: #2e2e2e !important;
+  --overlay-backdrop-bgColor: rgb(0 0 0 / 60%) !important;
+  --overlay-shadow: 0px 0px 0px 1px #2e2e2e, 0px 16px 32px -4px #00000066, 0px 12px 56px -8px #00000066, 0px 40px 80px -16px #00000066 !important;
 
-  /* Navigation */
-  --underlineNav-borderColor-active: #b294bb !important;
-  --focus-outlineColor: #b294bb !important;
-  --page-header-bgColor: #202020 !important;
-
-  /* Contribution Graph */
+  /* ================================================================
+     Contribution Graph (Purple Gradient)
+     ================================================================ */
   --contribution-default-bgColor-0: #2e2e2e !important;
   --contribution-default-bgColor-1: #b294bb57 !important;
   --contribution-default-bgColor-2: #b294bb9c !important;
@@ -117,13 +375,323 @@
   --contribution-default-borderColor-3: transparent !important;
   --contribution-default-borderColor-4: transparent !important;
 
-  /* Legacy Variables (still used by GitHub) */
-  --color-notifications-row-bg: #202020 !important;
-  --color-workflow-card-bg: #202020 !important;
+  /* Contribution - Halloween (KEEP GitHub defaults) */
+  --contribution-halloween-bgColor-1: #631c03 !important;
+  --contribution-halloween-bgColor-2: #bd561d !important;
+  --contribution-halloween-bgColor-3: #fa7a18 !important;
+  --contribution-halloween-bgColor-4: #fddf68 !important;
 
-  /* Third-party Extension Variables */
+  /* Contribution - Winter (KEEP GitHub defaults) */
+  --contribution-winter-bgColor-1: #0a3069 !important;
+  --contribution-winter-bgColor-2: #1f6feb !important;
+  --contribution-winter-bgColor-3: #58a6ff !important;
+  --contribution-winter-bgColor-4: #b6e3ff !important;
+
+  /* ================================================================
+     Navigation
+     ================================================================ */
+  --underlineNav-borderColor-active: #b294bb !important;
+  --underlineNav-borderColor-hover: var(--borderColor-neutral-muted) !important;
+  --underlineNav-iconColor-rest: var(--fgColor-muted) !important;
+  --focus-outlineColor: #b294bb !important;
+  --page-header-bgColor: #202020 !important;
+
+  /* ================================================================
+     Card
+     ================================================================ */
+  --card-bgColor: var(--bgColor-muted) !important;
+
+  /* ================================================================
+     CodeMirror (KEEP var refs)
+     ================================================================ */
+  --codeMirror-bgColor: var(--bgColor-default) !important;
+  --codeMirror-fgColor: var(--fgColor-default) !important;
+  --codeMirror-gutters-bgColor: var(--bgColor-default) !important;
+  --codeMirror-gutterMarker-fgColor-default: var(--bgColor-default) !important;
+  --codeMirror-gutterMarker-fgColor-muted: var(--fgColor-muted) !important;
+  --codeMirror-lineNumber-fgColor: var(--fgColor-muted) !important;
+  --codeMirror-cursor-fgColor: var(--fgColor-default) !important;
+  --codeMirror-selection-bgColor: var(--bgColor-accent-muted) !important;
+  --codeMirror-activeline-bgColor: var(--bgColor-neutral-muted) !important;
+  --codeMirror-matchingBracket-fgColor: var(--fgColor-default) !important;
+  --codeMirror-lines-bgColor: var(--bgColor-default) !important;
+  --codeMirror-syntax-fgColor-comment: var(--fgColor-muted) !important;
+  --codeMirror-syntax-fgColor-constant: var(--fgColor-done) !important;
+  --codeMirror-syntax-fgColor-entity: var(--fgColor-done) !important;
+  --codeMirror-syntax-fgColor-keyword: var(--fgColor-danger) !important;
+  --codeMirror-syntax-fgColor-storage: var(--fgColor-danger) !important;
+  --codeMirror-syntax-fgColor-string: var(--fgColor-success) !important;
+  --codeMirror-syntax-fgColor-support: var(--fgColor-done) !important;
+  --codeMirror-syntax-fgColor-variable: var(--fgColor-severe) !important;
+
+  /* ================================================================
+     Counter
+     ================================================================ */
+  --counter-bgColor-emphasis: var(--bgColor-neutral-emphasis) !important;
+  --counter-bgColor-muted: var(--bgColor-neutral-muted) !important;
+  --counter-borderColor: transparent !important;
+  --counter-fgColor-emphasis: var(--fgColor-onEmphasis) !important;
+  --counter-fgColor-muted: var(--fgColor-default) !important;
+
+  /* ================================================================
+     Dashboard
+     ================================================================ */
+  --dashboard-bgColor: var(--bgColor-inset) !important;
+
+  /* ================================================================
+     Diff Blob (KEEP GitHub defaults for diff visibility)
+     ================================================================ */
+  --diffBlob-addition-bgColor-line: #2ea04326 !important;
+  --diffBlob-addition-bgColor-num: #2ea04366 !important;
+  --diffBlob-addition-bgColor-word: #2ea04366 !important;
+  --diffBlob-addition-fgColor-line: var(--fgColor-default) !important;
+  --diffBlob-addition-fgColor-num: var(--fgColor-default) !important;
+  --diffBlob-deletion-bgColor-line: #f8514926 !important;
+  --diffBlob-deletion-bgColor-num: #f8514966 !important;
+  --diffBlob-deletion-bgColor-word: #f8514966 !important;
+  --diffBlob-deletion-fgColor-line: var(--fgColor-default) !important;
+  --diffBlob-deletion-fgColor-num: var(--fgColor-default) !important;
+  --diffBlob-empty-bgColor-line: var(--bgColor-muted) !important;
+  --diffBlob-expander-iconColor: var(--fgColor-muted) !important;
+  --diffBlob-hunk-bgColor-num: #388bfd66 !important;
+  --diffBlob-hunk-fgColor-num: var(--fgColor-default) !important;
+  --diffBlob-selectedLine-bgColor: #bb800926 !important;
+  --diffBlob-selectedLine-borderColor: #9e6a03 !important;
+  --diffBlob-selectedLine-fgColor: var(--fgColor-default) !important;
+
+  /* ================================================================
+     Menu
+     ================================================================ */
+  --menu-bgColor-active: var(--bgColor-muted) !important;
+
+  /* ================================================================
+     Select Menu
+     ================================================================ */
+  --selectMenu-bgColor: #2e2e2e !important;
+  --selectMenu-borderColor: var(--borderColor-muted) !important;
+
+  /* ================================================================
+     Tooltip
+     ================================================================ */
+  --tooltip-bgColor: #2e2e2e !important;
+  --tooltip-fgColor: #c6c6c6 !important;
+
+  /* ================================================================
+     Timeline Badge
+     ================================================================ */
+  --timelineBadge-bgColor: #2e2e2e !important;
+
+  /* ================================================================
+     Topic Tag
+     ================================================================ */
+  --topicTag-bgColor: #b294bb26 !important;
+  --topicTag-borderColor: transparent !important;
+
+  /* ================================================================
+     TreeView (KEEP var refs)
+     ================================================================ */
+  --treeView-directory-fill: var(--fgColor-muted) !important;
+
+  /* ================================================================
+     Reaction Button (KEEP var refs)
+     ================================================================ */
+  --reactionButton-bgColor-rest: var(--bgColor-transparent) !important;
+  --reactionButton-bgColor-hover: var(--bgColor-neutral-muted) !important;
+  --reactionButton-selected-bgColor-rest: var(--bgColor-accent-muted) !important;
+  --reactionButton-selected-bgColor-hover: var(--bgColor-accent-muted) !important;
+  --reactionButton-selected-fgColor-rest: var(--fgColor-link) !important;
+  --reactionButton-selected-fgColor-hover: var(--fgColor-link) !important;
+
+  /* ================================================================
+     Skeleton Loader
+     ================================================================ */
+  --skeletonLoader-bgColor: #2e2e2e33 !important;
+
+  /* ================================================================
+     ANSI Colors (keep semantic, override neutral)
+     ================================================================ */
+  --color-ansi-black: #2e2e2e !important;
+  --color-ansi-black-bright: #7d7d7d !important;
+  --color-ansi-white: #c6c6c6 !important;
+  --color-ansi-white-bright: #c6c6c6 !important;
+  --color-ansi-red: #f85149 !important;
+  --color-ansi-red-bright: #ffa198 !important;
+  --color-ansi-green: #56d364 !important;
+  --color-ansi-green-bright: #7ee787 !important;
+  --color-ansi-yellow: #d29922 !important;
+  --color-ansi-yellow-bright: #e3b341 !important;
+  --color-ansi-blue: #4493f8 !important;
+  --color-ansi-blue-bright: #6cb6ff !important;
+  --color-ansi-magenta: #db61a2 !important;
+  --color-ansi-magenta-bright: #ff7ec6 !important;
+  --color-ansi-cyan: #39c5cf !important;
+  --color-ansi-cyan-bright: #56d4dd !important;
+
+  /* ================================================================
+     Legacy Variables (still active on GitHub)
+     ================================================================ */
+  --color-notifications-row-bg: #202020 !important;
+  --color-notifications-row-read-bg: #202020 !important;
+  --color-workflow-card-bg: #202020 !important;
+  --color-workflow-card-header-shadow: none !important;
+  --color-bg-discussions-row-emoji-box: #2e2e2e !important;
+  --color-diff-blob-selected-line-highlight-mix-blend-mode: screen !important;
+  --color-marketing-icon-primary: #7d7d7d !important;
+  --color-marketing-icon-secondary: #2e2e2e !important;
+  --color-mktg-btn-shadow-outline: none !important;
+  --color-project-gradient-in: #202020 !important;
+  --color-project-gradient-out: #1a1a1a !important;
+  --color-project-header-bg: #202020 !important;
+  --color-project-sidebar-bg: #1a1a1a !important;
+  --color-text-white: #c6c6c6 !important;
+  --color-user-mention-fg: #c6c6c6 !important;
+
+  /* ================================================================
+     Display Colors (KEEP GitHub defaults for colored labels)
+     ================================================================ */
+
+  /* Auburn */
+  --display-auburn-bgColor-emphasis: #87534b !important;
+  --display-auburn-bgColor-muted: #271817 !important;
+  --display-auburn-borderColor-emphasis: #87534b !important;
+  --display-auburn-borderColor-muted: #432422 !important;
+  --display-auburn-fgColor: #bf9b94 !important;
+
+  /* Blue */
+  --display-blue-bgColor-emphasis: #1f6feb !important;
+  --display-blue-bgColor-muted: #051d4d !important;
+  --display-blue-borderColor-emphasis: #1f6feb !important;
+  --display-blue-borderColor-muted: #0c2d6b !important;
+  --display-blue-fgColor: #4493f8 !important;
+
+  /* Brown */
+  --display-brown-bgColor-emphasis: #7b6530 !important;
+  --display-brown-bgColor-muted: #241c0e !important;
+  --display-brown-borderColor-emphasis: #7b6530 !important;
+  --display-brown-borderColor-muted: #3d2e12 !important;
+  --display-brown-fgColor: #b5956b !important;
+
+  /* Coral */
+  --display-coral-bgColor-emphasis: #c4432b !important;
+  --display-coral-bgColor-muted: #351008 !important;
+  --display-coral-borderColor-emphasis: #c4432b !important;
+  --display-coral-borderColor-muted: #5d1604 !important;
+  --display-coral-fgColor: #f0886b !important;
+
+  /* Cyan */
+  --display-cyan-bgColor-emphasis: #0e7c86 !important;
+  --display-cyan-bgColor-muted: #061e20 !important;
+  --display-cyan-borderColor-emphasis: #0e7c86 !important;
+  --display-cyan-borderColor-muted: #07383b !important;
+  --display-cyan-fgColor: #39c5cf !important;
+
+  /* Gray */
+  --display-gray-bgColor-emphasis: #656c76 !important;
+  --display-gray-bgColor-muted: #1c1f24 !important;
+  --display-gray-borderColor-emphasis: #656c76 !important;
+  --display-gray-borderColor-muted: #33383f !important;
+  --display-gray-fgColor: #9198a1 !important;
+
+  /* Green */
+  --display-green-bgColor-emphasis: #238636 !important;
+  --display-green-bgColor-muted: #04160d !important;
+  --display-green-borderColor-emphasis: #238636 !important;
+  --display-green-borderColor-muted: #0b2d14 !important;
+  --display-green-fgColor: #56d364 !important;
+
+  /* Indigo */
+  --display-indigo-bgColor-emphasis: #6e57c0 !important;
+  --display-indigo-bgColor-muted: #1b183f !important;
+  --display-indigo-borderColor-emphasis: #6e57c0 !important;
+  --display-indigo-borderColor-muted: #312a62 !important;
+  --display-indigo-fgColor: #a88bfa !important;
+
+  /* Lemon */
+  --display-lemon-bgColor-emphasis: #7e7200 !important;
+  --display-lemon-bgColor-muted: #221f07 !important;
+  --display-lemon-borderColor-emphasis: #7e7200 !important;
+  --display-lemon-borderColor-muted: #39340e !important;
+  --display-lemon-fgColor: #c9b800 !important;
+
+  /* Lime */
+  --display-lime-bgColor-emphasis: #527a29 !important;
+  --display-lime-bgColor-muted: #111f0d !important;
+  --display-lime-borderColor-emphasis: #527a29 !important;
+  --display-lime-borderColor-muted: #223616 !important;
+  --display-lime-fgColor: #89d548 !important;
+
+  /* Olive */
+  --display-olive-bgColor-emphasis: #6a7028 !important;
+  --display-olive-bgColor-muted: #171b0e !important;
+  --display-olive-borderColor-emphasis: #6a7028 !important;
+  --display-olive-borderColor-muted: #2e3416 !important;
+  --display-olive-fgColor: #a2b142 !important;
+
+  /* Orange */
+  --display-orange-bgColor-emphasis: #bd561d !important;
+  --display-orange-bgColor-muted: #311708 !important;
+  --display-orange-borderColor-emphasis: #bd561d !important;
+  --display-orange-borderColor-muted: #4a220d !important;
+  --display-orange-fgColor: #db6d28 !important;
+
+  /* Pine */
+  --display-pine-bgColor-emphasis: #18845e !important;
+  --display-pine-bgColor-muted: #071d12 !important;
+  --display-pine-borderColor-emphasis: #18845e !important;
+  --display-pine-borderColor-muted: #0b3923 !important;
+  --display-pine-fgColor: #1cc088 !important;
+
+  /* Pink */
+  --display-pink-bgColor-emphasis: #bf4b8a !important;
+  --display-pink-bgColor-muted: #2d1524 !important;
+  --display-pink-borderColor-emphasis: #bf4b8a !important;
+  --display-pink-borderColor-muted: #52203a !important;
+  --display-pink-fgColor: #db61a2 !important;
+
+  /* Plum */
+  --display-plum-bgColor-emphasis: #9b56b2 !important;
+  --display-plum-bgColor-muted: #241330 !important;
+  --display-plum-borderColor-emphasis: #9b56b2 !important;
+  --display-plum-borderColor-muted: #42245d !important;
+  --display-plum-fgColor: #d19eee !important;
+
+  /* Purple */
+  --display-purple-bgColor-emphasis: #8957e5 !important;
+  --display-purple-bgColor-muted: #1c1433 !important;
+  --display-purple-borderColor-emphasis: #8957e5 !important;
+  --display-purple-borderColor-muted: #352160 !important;
+  --display-purple-fgColor: #ab7df8 !important;
+
+  /* Red */
+  --display-red-bgColor-emphasis: #da3633 !important;
+  --display-red-bgColor-muted: #300c0d !important;
+  --display-red-borderColor-emphasis: #da3633 !important;
+  --display-red-borderColor-muted: #5a1316 !important;
+  --display-red-fgColor: #f85149 !important;
+
+  /* Teal */
+  --display-teal-bgColor-emphasis: #158174 !important;
+  --display-teal-bgColor-muted: #091d1a !important;
+  --display-teal-borderColor-emphasis: #158174 !important;
+  --display-teal-borderColor-muted: #0c3b31 !important;
+  --display-teal-fgColor: #1cbfa3 !important;
+
+  /* Yellow */
+  --display-yellow-bgColor-emphasis: #9e6a03 !important;
+  --display-yellow-bgColor-muted: #261c01 !important;
+  --display-yellow-borderColor-emphasis: #9e6a03 !important;
+  --display-yellow-borderColor-muted: #3b2300 !important;
+  --display-yellow-fgColor: #d29922 !important;
+
+  /* ================================================================
+     Third-party Extension Variables
+     ================================================================ */
   --rgh-heat-color: #b294bb !important;
 }
+
+/* ==================================================================
+   Selector-Based Rules
+   ================================================================== */
 
 .AppHeader,
 .GlobalNav {
