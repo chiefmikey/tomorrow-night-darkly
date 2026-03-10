@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Tomorrow Night Darkly - GitHub
 @namespace      github.com/chiefmikey/tomorrow-night-darkly
-@version        2.0.0
+@version        2.1.0
 @description    A Simply Dark Theme for GitHub
 @author         Mikl Wolfe
 @license        MIT
@@ -45,13 +45,13 @@
     --bgColor-neutral-emphasis: #2e2e2e !important;
     --bgColor-neutral-muted: #2e2e2e !important;
 
-    /* Background - Semantic (KEEP GitHub defaults) */
+    /* Background - Semantic */
     --bgColor-attention-emphasis: #9e6a03 !important;
     --bgColor-attention-muted: #bb800926 !important;
     --bgColor-danger-emphasis: #da3633 !important;
     --bgColor-danger-muted: #f851491a !important;
-    --bgColor-success-emphasis: #238636 !important;
-    --bgColor-success-muted: #2ea04326 !important;
+    --bgColor-success-emphasis: #b294bb !important;
+    --bgColor-success-muted: #b294bb26 !important;
     --bgColor-severe-emphasis: #bd561d !important;
     --bgColor-severe-muted: #db6d281a !important;
     --bgColor-done-emphasis: #8957e5 !important;
@@ -83,8 +83,8 @@
     --fgColor-neutral: #7d7d7d !important;
     --fgColor-onInverse: #202020 !important;
 
-    /* Foreground - Semantic (KEEP GitHub defaults) */
-    --fgColor-success: #56d364 !important;
+    /* Foreground - Semantic */
+    --fgColor-success: #b294bb !important;
     --fgColor-attention: #d29922 !important;
     --fgColor-severe: #db6d28 !important;
     --fgColor-danger: #f85149 !important;
@@ -113,13 +113,13 @@
     --borderColor-neutral-emphasis: #7d7d7d !important;
     --borderColor-neutral-muted: var(--borderColor-default) !important;
 
-    /* Border - Semantic (KEEP GitHub defaults) */
+    /* Border - Semantic */
     --borderColor-attention-emphasis: #9e6a03 !important;
     --borderColor-attention-muted: #bb800966 !important;
     --borderColor-danger-emphasis: #da3633 !important;
     --borderColor-danger-muted: #f8514966 !important;
-    --borderColor-success-emphasis: #238636 !important;
-    --borderColor-success-muted: #2ea04366 !important;
+    --borderColor-success-emphasis: #b294bb !important;
+    --borderColor-success-muted: #b294bb66 !important;
     --borderColor-severe-emphasis: #bd561d !important;
     --borderColor-severe-muted: #db6d2866 !important;
     --borderColor-done-emphasis: #8957e5 !important;
@@ -150,13 +150,13 @@
     /* Border Compound - Neutral */
     --border-neutral-emphasis: 0.0625rem solid var(--borderColor-neutral-emphasis) !important;
 
-    /* Border Compound - Semantic (KEEP GitHub defaults) */
+    /* Border Compound - Semantic */
     --border-attention-emphasis: 0.0625rem solid #9e6a03 !important;
     --border-attention-muted: 0.0625rem solid #bb800966 !important;
     --border-danger-emphasis: 0.0625rem solid #da3633 !important;
     --border-danger-muted: 0.0625rem solid #f8514966 !important;
-    --border-success-emphasis: 0.0625rem solid #238636 !important;
-    --border-success-muted: 0.0625rem solid #2ea04366 !important;
+    --border-success-emphasis: 0.0625rem solid #b294bb !important;
+    --border-success-muted: 0.0625rem solid #b294bb66 !important;
     --border-severe-emphasis: 0.0625rem solid #bd561d !important;
     --border-severe-muted: 0.0625rem solid #db6d2866 !important;
     --border-done-emphasis: 0.0625rem solid #8957e5 !important;
@@ -337,6 +337,12 @@
     --control-danger-fgColor-hover: var(--fgColor-onEmphasis) !important;
     --control-danger-fgColor-rest: var(--fgColor-danger) !important;
 
+    /* Controls - Success */
+    --control-borderColor-success: var(--borderColor-success-emphasis) !important;
+
+    /* Progress Bar */
+    --progressBar-bgColor-success: var(--bgColor-success-emphasis) !important;
+
     /* Controls - Transparent */
     --control-transparent-bgColor-rest: transparent !important;
     --control-transparent-bgColor-hover: #2e2e2e !important;
@@ -452,11 +458,11 @@
     --dashboard-bgColor: var(--bgColor-inset) !important;
 
     /* ================================================================
-       Diff Blob (KEEP GitHub defaults for diff visibility)
+       Diff Blob
        ================================================================ */
-    --diffBlob-addition-bgColor-line: #2ea04326 !important;
-    --diffBlob-addition-bgColor-num: #2ea04366 !important;
-    --diffBlob-addition-bgColor-word: #2ea04366 !important;
+    --diffBlob-addition-bgColor-line: #b294bb26 !important;
+    --diffBlob-addition-bgColor-num: #b294bb66 !important;
+    --diffBlob-addition-bgColor-word: #b294bb66 !important;
     --diffBlob-addition-fgColor-line: var(--fgColor-default) !important;
     --diffBlob-addition-fgColor-num: var(--fgColor-default) !important;
     --diffBlob-deletion-bgColor-line: #f8514926 !important;
@@ -560,7 +566,7 @@
     --color-user-mention-fg: #c6c6c6 !important;
 
     /* ================================================================
-       Display Colors (KEEP GitHub defaults for colored labels)
+       Display Colors
        ================================================================ */
 
     /* Auburn */
@@ -605,12 +611,12 @@
     --display-gray-borderColor-muted: #33383f !important;
     --display-gray-fgColor: #9198a1 !important;
 
-    /* Green */
-    --display-green-bgColor-emphasis: #238636 !important;
-    --display-green-bgColor-muted: #04160d !important;
-    --display-green-borderColor-emphasis: #238636 !important;
-    --display-green-borderColor-muted: #0b2d14 !important;
-    --display-green-fgColor: #56d364 !important;
+    /* Green (themed to purple) */
+    --display-green-bgColor-emphasis: #b294bb !important;
+    --display-green-bgColor-muted: #1c1433 !important;
+    --display-green-borderColor-emphasis: #b294bb !important;
+    --display-green-borderColor-muted: #352160 !important;
+    --display-green-fgColor: #b294bb !important;
 
     /* Indigo */
     --display-indigo-bgColor-emphasis: #6e57c0 !important;
