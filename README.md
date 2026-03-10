@@ -6,6 +6,24 @@
 
 A [Simply Dark](https://simplydark.net) Theme
 
-###### [Add to Chrome](https://chrome.google.com/webstore/detail/tomorrow-night-darkly/najhldfogkjhgdaaloddlfdgjfolnoik)
-
 </div>
+
+## Chrome Theme
+
+[Add to Chrome](https://chrome.google.com/webstore/detail/tomorrow-night-darkly/najhldfogkjhgdaaloddlfdgjfolnoik) from the Chrome Web Store.
+
+## GitHub Theme
+
+A custom dark theme for GitHub that replaces the default color palette with the Tomorrow Night Darkly aesthetic. Requires the [Stylus](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) browser extension.
+
+[Install GitHub Theme](https://raw.githubusercontent.com/chiefmikey/tomorrow-night-darkly/main/github/github-theme-tomorrow-night-darkly.user.css) -- click with Stylus installed for one-click setup with auto-updates.
+
+### What it covers
+
+- Backgrounds, text, borders, and overlays
+- Contribution graph (purple gradient)
+- Success/open states, diff views, and progress bars
+- Buttons, controls, tooltips, menus, and navigation
+- CodeMirror editor syntax highlighting
+- Header, avatars, topic tags, and timeline badges
+- 470+ Primer design token overrides
