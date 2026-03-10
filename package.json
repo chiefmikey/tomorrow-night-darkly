@@ -32,7 +32,7 @@
     "@types/react-dom": "^19.2.3",
     "@types/webpack": "^5.28.5",
     "babel-loader": "^10.1.1",
-    "css-loader": "^7.1.2",
+    "css-loader": "^7.1.4",
     "koa": "^3.1.2",
     "koa-bodyparser": "^4.4.1",
     "koa-static": "^5.0.0",
