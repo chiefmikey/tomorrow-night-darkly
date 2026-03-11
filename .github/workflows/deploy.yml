@@ -29,7 +29,7 @@ jobs:
     - name: Build
       run: |
         set -x
-        npm i
+        npm i --legacy-peer-deps
         sed -i "1i console.log('Updated:', '$(TZ=PST8PDT date)')" ${ENTRY}
         npm run build:prod
 

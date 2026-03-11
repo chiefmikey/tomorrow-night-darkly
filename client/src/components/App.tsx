@@ -1,6 +1,6 @@
 import React from 'react';
 import Img from 'react-cool-img';
-import { FiChrome } from 'react-icons/fi';
+import { FiChrome, FiGithub } from 'react-icons/fi';
 
 const App = () => (
   <div className="background">
@@ -32,6 +32,17 @@ const App = () => (
               <FiChrome />
             </div>
             <span className="content-text">Chrome</span>
+          </a>
+          <a
+            href="https://raw.githubusercontent.com/chiefmikey/tomorrow-night-darkly/main/github/github-theme-tomorrow-night-darkly.user.css"
+            className="content-option"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="github-icon">
+              <FiGithub />
+            </div>
+            <span className="content-text">GitHub</span>
           </a>
         </div>
       </div>

@@ -145,6 +145,17 @@ a {
   animation: .001s 20 normal ease-in 25s shake;
 }
 
+.github-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: $icon;
+  margin-bottom: 10px;
+  color: $pink;
+  animation: .001s 20 normal ease-in 25s shake;
+}
+
 .content-text {
   font-size: $title-1;
   padding: 10px;
