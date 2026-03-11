@@ -16,7 +16,7 @@ A [Simply Dark](https://simplydark.net) Theme
 
 A custom dark theme for GitHub that replaces the default color palette with the Tomorrow Night Darkly aesthetic. Requires the [Stylus](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) browser extension.
 
-[Install GitHub Theme](https://raw.githubusercontent.com/chiefmikey/tomorrow-night-darkly/main/github/github-theme-tomorrow-night-darkly.user.css) -- click with Stylus installed for one-click setup with auto-updates.
+[Install GitHub Theme](https://userstyles.world/style/27011/tomorrow-night-darkly-github) from UserStyles.world.
 
 ### What it covers
 

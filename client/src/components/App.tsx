@@ -34,7 +34,7 @@ const App = () => (
             <span className="content-text">Chrome</span>
           </a>
           <a
-            href="https://raw.githubusercontent.com/chiefmikey/tomorrow-night-darkly/main/github/github-theme-tomorrow-night-darkly.user.css"
+            href="https://userstyles.world/style/27011/tomorrow-night-darkly-github"
             className="content-option"
             target="_blank"
             rel="noreferrer"
