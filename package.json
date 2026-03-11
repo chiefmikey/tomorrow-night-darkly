@@ -39,7 +39,7 @@
     "mikey-pro": "^10.3.0",
     "nodemon": "^3.1.9",
     "sass": "^1.85.1",
-    "sass-loader": "^16.0.5",
+    "sass-loader": "^16.0.7",
     "style-loader": "^4.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2",
