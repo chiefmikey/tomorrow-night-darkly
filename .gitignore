@@ -2,3 +2,8 @@ node_modules
 dist
 .DS_Store
 .vscode
+CLAUDE.md
+docs/context/
+docs/plans/
+docs/research/
+docs/retros/
