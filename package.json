@@ -45,7 +45,7 @@
     "typescript": "^6.0.2",
     "url-loader": "^4.1.1",
     "webpack": "^5.105.4",
-    "webpack-cli": "^7.0.1"
+    "webpack-cli": "^7.0.2"
   },
   "homepage": "https://github.com/chiefmikey/tomorrow-night-darkly#readme",
   "repository": {
