@@ -19,10 +19,8 @@ color pickers under **Custom Theme** and set each value from the table below.
 | --- | --- | --- |
 | Center channel background | `#202020` | primary gray |
 | Center channel text | `#c6c6c6` | light gray text |
-| Sidebar background | `#181818` | darker gray |
-| Sidebar header background | `#141414` | darkest |
-| Team sidebar background | `#0f0f0f` | darkest |
-| Link / button / mention / active accent | `#b392bd` | accent purple |
+| Sidebar / header / team bar background | `#181818` | darker gray |
+| Link / button / mention / active accent | `#b294bb` | accent purple |
 | Mention highlight background | `#352160` | deep purple |
 | Mention highlight link | `#ab7df8` | bright purple |
 | Online indicator | `#18845e` | green |
