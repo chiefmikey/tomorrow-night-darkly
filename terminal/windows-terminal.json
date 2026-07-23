@@ -1,0 +1,23 @@
+{
+  "name": "Tomorrow Night Darkly",
+  "background": "#181818",
+  "foreground": "#c6c6c6",
+  "cursorColor": "#b294bb",
+  "selectionBackground": "#2e2e2e",
+  "black": "#181818",
+  "red": "#f85149",
+  "green": "#18845e",
+  "yellow": "#d29922",
+  "blue": "#1f6feb",
+  "purple": "#b294bb",
+  "cyan": "#39c5cf",
+  "white": "#c6c6c6",
+  "brightBlack": "#7d7d7d",
+  "brightRed": "#ff7b72",
+  "brightGreen": "#56d364",
+  "brightYellow": "#e3b341",
+  "brightBlue": "#4493f8",
+  "brightPurple": "#ff7ec6",
+  "brightCyan": "#56d4dd",
+  "brightWhite": "#ffffff"
+}

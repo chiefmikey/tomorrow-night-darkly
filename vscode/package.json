@@ -1,0 +1,20 @@
+{
+  "name": "tomorrow-night-darkly",
+  "displayName": "Tomorrow Night Darkly",
+  "description": "A Simply Dark Theme",
+  "version": "1.0.1",
+  "publisher": "simplydark",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tomorrow Night Darkly",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tomorrow-night-darkly-color-theme.json"
+      }
+    ]
+  }
+}

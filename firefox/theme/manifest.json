@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "Tomorrow Night Darkly",
+  "version": "1.0.1",
+  "description": "A Simply Dark Theme",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tomorrow-night-darkly@simplydark.net"
+    }
+  },
+  "theme": {
+    "colors": {
+      "frame": "#202020",
+      "frame_inactive": "#202020",
+      "toolbar": "#181818",
+      "toolbar_text": "#c6c6c6",
+      "toolbar_field": "#202020",
+      "toolbar_field_text": "#c6c6c6",
+      "toolbar_field_border": "#2e2e2e",
+      "toolbar_field_focus": "#202020",
+      "tab_text": "#b294bb",
+      "tab_selected": "#181818",
+      "tab_line": "#b294bb",
+      "tab_loading": "#b294bb",
+      "tab_background_text": "#c6c6c6",
+      "bookmark_text": "#b294bb",
+      "ntp_background": "#181818",
+      "ntp_text": "#c6c6c6",
+      "popup": "#181818",
+      "popup_text": "#c6c6c6",
+      "popup_border": "#2e2e2e",
+      "popup_highlight": "#b294bb",
+      "popup_highlight_text": "#181818",
+      "button_background_hover": "#2e2e2e",
+      "icons": "#c6c6c6",
+      "icons_attention": "#b294bb"
+    }
+  }
+}
