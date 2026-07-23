@@ -27,3 +27,9 @@ A custom dark theme for GitHub that replaces the default color palette with the 
 - CodeMirror editor syntax highlighting
 - Header, avatars, topic tags, and timeline badges
 - 470+ Primer design token overrides
+
+## Mattermost Theme
+
+A custom dark theme for Mattermost matching the Tomorrow Night Darkly palette.
+
+Open **Settings -> Display -> Theme -> Custom Theme -> Import theme colors** and paste the contents of [`mattermost/tomorrow-night-darkly.json`](mattermost/tomorrow-night-darkly.json). Full install steps and the color mapping are in the [Mattermost theme README](mattermost/README.md).
