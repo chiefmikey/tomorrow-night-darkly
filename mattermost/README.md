@@ -21,7 +21,7 @@ color pickers under **Custom Theme** and set each value from the table below.
 | Center channel text | `#c6c6c6` | light gray text |
 | Sidebar / header / team bar background | `#181818` | darker gray |
 | Link / button / mention / active accent | `#b294bb` | accent purple |
-| Mention highlight background | `#3f3741` | dark accent tint |
+| Mention highlight background | `#2e2e2e` | secondary gray |
 | Mention highlight link | `#b294bb` | accent purple |
 | Online indicator | `#18845e` | green |
 | Away indicator | `#d29922` | amber |
