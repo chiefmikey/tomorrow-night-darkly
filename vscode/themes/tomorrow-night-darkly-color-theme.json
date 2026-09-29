@@ -27,8 +27,8 @@
     "editorBracketMatch.background": "#2e2e2e",
     "editorBracketMatch.border": "#b294bb",
     "editorBracketHighlight.foreground1": "#b294bb",
-    "editorBracketHighlight.foreground2": "#39c5cf",
-    "editorBracketHighlight.foreground3": "#d29922",
+    "editorBracketHighlight.foreground2": "#7d7d7d",
+    "editorBracketHighlight.foreground3": "#c6c6c6",
     "editorGutter.modifiedBackground": "#d29922",
     "editorGutter.addedBackground": "#18845e",
     "editorGutter.deletedBackground": "#f85149",
@@ -45,7 +45,7 @@
     "editorGroup.border": "#2e2e2e",
     "editorError.foreground": "#f85149",
     "editorWarning.foreground": "#d29922",
-    "editorInfo.foreground": "#39c5cf",
+    "editorInfo.foreground": "#7d7d7d",
 
     "sideBar.background": "#202020",
     "sideBar.foreground": "#c6c6c6",
@@ -128,7 +128,7 @@
 
     "button.background": "#b294bb",
     "button.foreground": "#181818",
-    "button.hoverBackground": "#c3a8ca",
+    "button.hoverBackground": "#b294bbd4",
     "button.secondaryBackground": "#2e2e2e",
     "button.secondaryForeground": "#c6c6c6",
 
@@ -147,8 +147,8 @@
     "gitDecoration.modifiedResourceForeground": "#d29922",
     "gitDecoration.addedResourceForeground": "#18845e",
     "gitDecoration.deletedResourceForeground": "#f85149",
-    "gitDecoration.untrackedResourceForeground": "#39c5cf",
-    "gitDecoration.conflictingResourceForeground": "#ff7ec6",
+    "gitDecoration.untrackedResourceForeground": "#7d7d7d",
+    "gitDecoration.conflictingResourceForeground": "#d29922",
     "gitDecoration.ignoredResourceForeground": "#7d7d7d",
 
     "menu.background": "#202020",
@@ -169,7 +169,7 @@
 
     "extensionButton.prominentBackground": "#b294bb",
     "extensionButton.prominentForeground": "#181818",
-    "extensionButton.prominentHoverBackground": "#c3a8ca",
+    "extensionButton.prominentHoverBackground": "#b294bbd4",
 
     "progressBar.background": "#b294bb",
 

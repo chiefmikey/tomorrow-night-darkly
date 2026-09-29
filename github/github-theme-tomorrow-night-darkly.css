@@ -41,10 +41,10 @@
   --bgColor-success-muted: #b294bb26 !important;
   --bgColor-severe-emphasis: #bd561d !important;
   --bgColor-severe-muted: #db6d281a !important;
-  --bgColor-done-emphasis: #8957e5 !important;
-  --bgColor-done-muted: #ab7df826 !important;
-  --bgColor-sponsors-emphasis: #bf4b8a !important;
-  --bgColor-sponsors-muted: #db61a21a !important;
+  --bgColor-done-emphasis: #b294bb !important;
+  --bgColor-done-muted: #b294bb26 !important;
+  --bgColor-sponsors-emphasis: #b294bb !important;
+  --bgColor-sponsors-muted: #b294bb1a !important;
 
   /* Background - State References (KEEP var refs) */
   --bgColor-open-emphasis: var(--bgColor-success-emphasis) !important;
@@ -75,8 +75,8 @@
   --fgColor-attention: #d29922 !important;
   --fgColor-severe: #db6d28 !important;
   --fgColor-danger: #f85149 !important;
-  --fgColor-done: #ab7df8 !important;
-  --fgColor-sponsors: #db61a2 !important;
+  --fgColor-done: #b294bb !important;
+  --fgColor-sponsors: #b294bb !important;
 
   /* Foreground - State References (KEEP var refs) */
   --fgColor-open: var(--fgColor-success) !important;
@@ -109,10 +109,10 @@
   --borderColor-success-muted: #b294bb66 !important;
   --borderColor-severe-emphasis: #bd561d !important;
   --borderColor-severe-muted: #db6d2866 !important;
-  --borderColor-done-emphasis: #8957e5 !important;
-  --borderColor-done-muted: #ab7df866 !important;
-  --borderColor-sponsors-emphasis: #bf4b8a !important;
-  --borderColor-sponsors-muted: #db61a266 !important;
+  --borderColor-done-emphasis: #b294bb !important;
+  --borderColor-done-muted: #b294bb66 !important;
+  --borderColor-sponsors-emphasis: #b294bb !important;
+  --borderColor-sponsors-muted: #b294bb66 !important;
 
   /* Border - State References (KEEP var refs) */
   --borderColor-open-emphasis: var(--borderColor-success-emphasis) !important;
@@ -146,10 +146,10 @@
   --border-success-muted: 0.0625rem solid #b294bb66 !important;
   --border-severe-emphasis: 0.0625rem solid #bd561d !important;
   --border-severe-muted: 0.0625rem solid #db6d2866 !important;
-  --border-done-emphasis: 0.0625rem solid #8957e5 !important;
-  --border-done-muted: 0.0625rem solid #ab7df866 !important;
-  --border-sponsors-emphasis: 0.0625rem solid #bf4b8a !important;
-  --border-sponsors-muted: 0.0625rem solid #db61a266 !important;
+  --border-done-emphasis: 0.0625rem solid #b294bb !important;
+  --border-done-muted: 0.0625rem solid #b294bb66 !important;
+  --border-sponsors-emphasis: 0.0625rem solid #b294bb !important;
+  --border-sponsors-muted: 0.0625rem solid #b294bb66 !important;
 
   /* Border Compound - State References (KEEP var refs) */
   --border-open-emphasis: var(--border-success-emphasis) !important;
@@ -381,17 +381,17 @@
   --contribution-default-borderColor-3: transparent !important;
   --contribution-default-borderColor-4: transparent !important;
 
-  /* Contribution - Halloween (KEEP GitHub defaults) */
-  --contribution-halloween-bgColor-1: #631c03 !important;
-  --contribution-halloween-bgColor-2: #bd561d !important;
-  --contribution-halloween-bgColor-3: #fa7a18 !important;
-  --contribution-halloween-bgColor-4: #fddf68 !important;
+  /* Contribution - Halloween (gray to pink gradient) */
+  --contribution-halloween-bgColor-1: #3f3741 !important;
+  --contribution-halloween-bgColor-2: #7d7d7d !important;
+  --contribution-halloween-bgColor-3: #b294bb !important;
+  --contribution-halloween-bgColor-4: #c6c6c6 !important;
 
-  /* Contribution - Winter (KEEP GitHub defaults) */
-  --contribution-winter-bgColor-1: #0a3069 !important;
-  --contribution-winter-bgColor-2: #1f6feb !important;
-  --contribution-winter-bgColor-3: #58a6ff !important;
-  --contribution-winter-bgColor-4: #b6e3ff !important;
+  /* Contribution - Winter (gray to pink gradient) */
+  --contribution-winter-bgColor-1: #3a3a3a !important;
+  --contribution-winter-bgColor-2: #7d7d7d !important;
+  --contribution-winter-bgColor-3: #b294bb !important;
+  --contribution-winter-bgColor-4: #c6c6c6 !important;
 
   /* ================================================================
      Navigation
@@ -459,7 +459,7 @@
   --diffBlob-deletion-fgColor-num: var(--fgColor-default) !important;
   --diffBlob-empty-bgColor-line: var(--bgColor-muted) !important;
   --diffBlob-expander-iconColor: var(--fgColor-muted) !important;
-  --diffBlob-hunk-bgColor-num: #388bfd66 !important;
+  --diffBlob-hunk-bgColor-num: #b294bb66 !important;
   --diffBlob-hunk-fgColor-num: var(--fgColor-default) !important;
   --diffBlob-selectedLine-bgColor: #bb800926 !important;
   --diffBlob-selectedLine-borderColor: #9e6a03 !important;
@@ -557,81 +557,81 @@
      ================================================================ */
 
   /* Auburn */
-  --display-auburn-bgColor-emphasis: #87534b !important;
-  --display-auburn-bgColor-muted: #271817 !important;
-  --display-auburn-borderColor-emphasis: #87534b !important;
-  --display-auburn-borderColor-muted: #432422 !important;
-  --display-auburn-fgColor: #bf9b94 !important;
+  --display-auburn-bgColor-emphasis: #3a3a3a !important;
+  --display-auburn-bgColor-muted: #1a1a1a !important;
+  --display-auburn-borderColor-emphasis: #3a3a3a !important;
+  --display-auburn-borderColor-muted: #2e2e2e !important;
+  --display-auburn-fgColor: #7d7d7d !important;
 
   /* Blue */
-  --display-blue-bgColor-emphasis: #1f6feb !important;
-  --display-blue-bgColor-muted: #051d4d !important;
-  --display-blue-borderColor-emphasis: #1f6feb !important;
-  --display-blue-borderColor-muted: #0c2d6b !important;
-  --display-blue-fgColor: #4493f8 !important;
+  --display-blue-bgColor-emphasis: #7d7d7d !important;
+  --display-blue-bgColor-muted: #181818 !important;
+  --display-blue-borderColor-emphasis: #7d7d7d !important;
+  --display-blue-borderColor-muted: #2e2e2e !important;
+  --display-blue-fgColor: #c6c6c6 !important;
 
   /* Brown */
-  --display-brown-bgColor-emphasis: #7b6530 !important;
-  --display-brown-bgColor-muted: #241c0e !important;
-  --display-brown-borderColor-emphasis: #7b6530 !important;
-  --display-brown-borderColor-muted: #3d2e12 !important;
-  --display-brown-fgColor: #b5956b !important;
+  --display-brown-bgColor-emphasis: #3a3a3a !important;
+  --display-brown-bgColor-muted: #181818 !important;
+  --display-brown-borderColor-emphasis: #3a3a3a !important;
+  --display-brown-borderColor-muted: #2e2e2e !important;
+  --display-brown-fgColor: #7d7d7d !important;
 
   /* Coral */
-  --display-coral-bgColor-emphasis: #c4432b !important;
-  --display-coral-bgColor-muted: #351008 !important;
-  --display-coral-borderColor-emphasis: #c4432b !important;
-  --display-coral-borderColor-muted: #5d1604 !important;
-  --display-coral-fgColor: #f0886b !important;
+  --display-coral-bgColor-emphasis: #7d7d7d !important;
+  --display-coral-bgColor-muted: #1a1a1a !important;
+  --display-coral-borderColor-emphasis: #7d7d7d !important;
+  --display-coral-borderColor-muted: #3a3a3a !important;
+  --display-coral-fgColor: #c6c6c6 !important;
 
   /* Cyan */
-  --display-cyan-bgColor-emphasis: #0e7c86 !important;
-  --display-cyan-bgColor-muted: #061e20 !important;
-  --display-cyan-borderColor-emphasis: #0e7c86 !important;
-  --display-cyan-borderColor-muted: #07383b !important;
-  --display-cyan-fgColor: #39c5cf !important;
+  --display-cyan-bgColor-emphasis: #3a3a3a !important;
+  --display-cyan-bgColor-muted: #101010 !important;
+  --display-cyan-borderColor-emphasis: #3a3a3a !important;
+  --display-cyan-borderColor-muted: #2e2e2e !important;
+  --display-cyan-fgColor: #7d7d7d !important;
 
   /* Gray */
-  --display-gray-bgColor-emphasis: #656c76 !important;
-  --display-gray-bgColor-muted: #1c1f24 !important;
-  --display-gray-borderColor-emphasis: #656c76 !important;
-  --display-gray-borderColor-muted: #33383f !important;
-  --display-gray-fgColor: #9198a1 !important;
+  --display-gray-bgColor-emphasis: #7d7d7d !important;
+  --display-gray-bgColor-muted: #1a1a1a !important;
+  --display-gray-borderColor-emphasis: #7d7d7d !important;
+  --display-gray-borderColor-muted: #3a3a3a !important;
+  --display-gray-fgColor: #c6c6c6 !important;
 
-  /* Green (themed to purple) */
+  /* Green (themed to accent) */
   --display-green-bgColor-emphasis: #b294bb !important;
-  --display-green-bgColor-muted: #1c1433 !important;
+  --display-green-bgColor-muted: #3f3741 !important;
   --display-green-borderColor-emphasis: #b294bb !important;
-  --display-green-borderColor-muted: #352160 !important;
+  --display-green-borderColor-muted: #b294bb66 !important;
   --display-green-fgColor: #b294bb !important;
 
   /* Indigo */
-  --display-indigo-bgColor-emphasis: #6e57c0 !important;
-  --display-indigo-bgColor-muted: #1b183f !important;
-  --display-indigo-borderColor-emphasis: #6e57c0 !important;
-  --display-indigo-borderColor-muted: #312a62 !important;
-  --display-indigo-fgColor: #a88bfa !important;
+  --display-indigo-bgColor-emphasis: #b294bb !important;
+  --display-indigo-bgColor-muted: #3f3741 !important;
+  --display-indigo-borderColor-emphasis: #b294bb !important;
+  --display-indigo-borderColor-muted: #b294bb66 !important;
+  --display-indigo-fgColor: #b294bb !important;
 
   /* Lemon */
-  --display-lemon-bgColor-emphasis: #7e7200 !important;
-  --display-lemon-bgColor-muted: #221f07 !important;
-  --display-lemon-borderColor-emphasis: #7e7200 !important;
-  --display-lemon-borderColor-muted: #39340e !important;
-  --display-lemon-fgColor: #c9b800 !important;
+  --display-lemon-bgColor-emphasis: #7d7d7d !important;
+  --display-lemon-bgColor-muted: #181818 !important;
+  --display-lemon-borderColor-emphasis: #7d7d7d !important;
+  --display-lemon-borderColor-muted: #2e2e2e !important;
+  --display-lemon-fgColor: #c6c6c6 !important;
 
   /* Lime */
-  --display-lime-bgColor-emphasis: #527a29 !important;
-  --display-lime-bgColor-muted: #111f0d !important;
-  --display-lime-borderColor-emphasis: #527a29 !important;
-  --display-lime-borderColor-muted: #223616 !important;
-  --display-lime-fgColor: #89d548 !important;
+  --display-lime-bgColor-emphasis: #3a3a3a !important;
+  --display-lime-bgColor-muted: #101010 !important;
+  --display-lime-borderColor-emphasis: #3a3a3a !important;
+  --display-lime-borderColor-muted: #2e2e2e !important;
+  --display-lime-fgColor: #7d7d7d !important;
 
   /* Olive */
-  --display-olive-bgColor-emphasis: #6a7028 !important;
-  --display-olive-bgColor-muted: #171b0e !important;
-  --display-olive-borderColor-emphasis: #6a7028 !important;
-  --display-olive-borderColor-muted: #2e3416 !important;
-  --display-olive-fgColor: #a2b142 !important;
+  --display-olive-bgColor-emphasis: #3a3a3a !important;
+  --display-olive-bgColor-muted: #181818 !important;
+  --display-olive-borderColor-emphasis: #3a3a3a !important;
+  --display-olive-borderColor-muted: #2e2e2e !important;
+  --display-olive-fgColor: #7d7d7d !important;
 
   /* Orange */
   --display-orange-bgColor-emphasis: #bd561d !important;
@@ -641,32 +641,32 @@
   --display-orange-fgColor: #db6d28 !important;
 
   /* Pine */
-  --display-pine-bgColor-emphasis: #18845e !important;
-  --display-pine-bgColor-muted: #071d12 !important;
-  --display-pine-borderColor-emphasis: #18845e !important;
-  --display-pine-borderColor-muted: #0b3923 !important;
-  --display-pine-fgColor: #1cc088 !important;
+  --display-pine-bgColor-emphasis: #7d7d7d !important;
+  --display-pine-bgColor-muted: #1a1a1a !important;
+  --display-pine-borderColor-emphasis: #7d7d7d !important;
+  --display-pine-borderColor-muted: #3a3a3a !important;
+  --display-pine-fgColor: #c6c6c6 !important;
 
   /* Pink */
-  --display-pink-bgColor-emphasis: #bf4b8a !important;
-  --display-pink-bgColor-muted: #2d1524 !important;
-  --display-pink-borderColor-emphasis: #bf4b8a !important;
-  --display-pink-borderColor-muted: #52203a !important;
-  --display-pink-fgColor: #db61a2 !important;
+  --display-pink-bgColor-emphasis: #b294bb !important;
+  --display-pink-bgColor-muted: #3f3741 !important;
+  --display-pink-borderColor-emphasis: #b294bb !important;
+  --display-pink-borderColor-muted: #b294bb66 !important;
+  --display-pink-fgColor: #b294bb !important;
 
   /* Plum */
-  --display-plum-bgColor-emphasis: #9b56b2 !important;
-  --display-plum-bgColor-muted: #241330 !important;
-  --display-plum-borderColor-emphasis: #9b56b2 !important;
-  --display-plum-borderColor-muted: #42245d !important;
-  --display-plum-fgColor: #d19eee !important;
+  --display-plum-bgColor-emphasis: #b294bb !important;
+  --display-plum-bgColor-muted: #3f3741 !important;
+  --display-plum-borderColor-emphasis: #b294bb !important;
+  --display-plum-borderColor-muted: #b294bb66 !important;
+  --display-plum-fgColor: #b294bb !important;
 
   /* Purple */
-  --display-purple-bgColor-emphasis: #8957e5 !important;
-  --display-purple-bgColor-muted: #1c1433 !important;
-  --display-purple-borderColor-emphasis: #8957e5 !important;
-  --display-purple-borderColor-muted: #352160 !important;
-  --display-purple-fgColor: #ab7df8 !important;
+  --display-purple-bgColor-emphasis: #b294bb !important;
+  --display-purple-bgColor-muted: #3f3741 !important;
+  --display-purple-borderColor-emphasis: #b294bb !important;
+  --display-purple-borderColor-muted: #b294bb66 !important;
+  --display-purple-fgColor: #b294bb !important;
 
   /* Red */
   --display-red-bgColor-emphasis: #da3633 !important;
@@ -676,11 +676,11 @@
   --display-red-fgColor: #f85149 !important;
 
   /* Teal */
-  --display-teal-bgColor-emphasis: #158174 !important;
-  --display-teal-bgColor-muted: #091d1a !important;
-  --display-teal-borderColor-emphasis: #158174 !important;
-  --display-teal-borderColor-muted: #0c3b31 !important;
-  --display-teal-fgColor: #1cbfa3 !important;
+  --display-teal-bgColor-emphasis: #3a3a3a !important;
+  --display-teal-bgColor-muted: #1a1a1a !important;
+  --display-teal-borderColor-emphasis: #3a3a3a !important;
+  --display-teal-borderColor-muted: #2e2e2e !important;
+  --display-teal-fgColor: #7d7d7d !important;
 
   /* Yellow */
   --display-yellow-bgColor-emphasis: #9e6a03 !important;
