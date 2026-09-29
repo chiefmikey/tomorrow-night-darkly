@@ -148,7 +148,7 @@
     "gitDecoration.addedResourceForeground": "#18845e",
     "gitDecoration.deletedResourceForeground": "#f85149",
     "gitDecoration.untrackedResourceForeground": "#7d7d7d",
-    "gitDecoration.conflictingResourceForeground": "#d29922",
+    "gitDecoration.conflictingResourceForeground": "#f85149",
     "gitDecoration.ignoredResourceForeground": "#7d7d7d",
 
     "menu.background": "#202020",
