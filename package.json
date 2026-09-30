@@ -68,15 +68,14 @@
     "extends": "mikey-pro/stylelint"
   },
   "lint-staged": {
-    "{app.ts,webpack.config.js,client/src/**/*.{ts,tsx,js}}": [
+    "*.{js,jsx,ts,tsx,mjs,cjs}": [
       "bash -c 'eslint --fix --cache --no-error-on-unmatched-pattern \"$@\" || true' --",
       "prettier --write"
     ],
-    "client/src/**/*.scss": [
+    "*.{css,scss}": [
       "bash -c 'stylelint --fix --cache --allow-empty-input \"$@\" || true' --",
       "prettier --write"
     ],
-    "{eslint,prettier,stylelint}.config.{js,mjs,cjs}": ["prettier --write"],
-    "*.{json,md,yml,yaml}": ["prettier --write"]
+    "*.{html,json,md,yml,yaml}": ["prettier --write"]
   }
 }
