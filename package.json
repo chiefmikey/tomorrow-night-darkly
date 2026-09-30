@@ -7,7 +7,8 @@
     "build:dev": "NODE_ENV=development webpack --mode development -w",
     "build:prod": "NODE_ENV=production webpack --mode production",
     "start:client": "ts-node app.ts",
-    "test:client": "nodemon app.ts"
+    "test:client": "nodemon app.ts",
+    "prepare": "husky"
   },
   "dependencies": {
     "airbnb-browser-shims": "^3.3.0",
@@ -33,14 +34,19 @@
     "@types/webpack": "^5.28.5",
     "babel-loader": "^10.1.1",
     "css-loader": "^7.1.4",
+    "eslint": "^10.11.0",
+    "husky": "^9.1.7",
     "koa": "^3.2.1",
     "koa-bodyparser": "^4.4.1",
     "koa-static": "^5.0.0",
-    "mikey-pro": "^10.3.3",
+    "lint-staged": "^17.6.0",
+    "mikey-pro": "^10.3.4",
     "nodemon": "^3.1.14",
+    "prettier": "^3.9.9",
     "sass": "^1.100.0",
     "sass-loader": "^17.0.0",
     "style-loader": "^4.0.0",
+    "stylelint": "^16.26.1",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3",
     "url-loader": "^4.1.1",
@@ -60,5 +66,17 @@
   "prettier": "mikey-pro/prettier",
   "stylelint": {
     "extends": "mikey-pro/stylelint"
+  },
+  "lint-staged": {
+    "{app.ts,webpack.config.js,client/src/**/*.{ts,tsx,js}}": [
+      "bash -c 'eslint --fix --cache --no-error-on-unmatched-pattern \"$@\" || true' --",
+      "prettier --write"
+    ],
+    "client/src/**/*.scss": [
+      "bash -c 'stylelint --fix --cache --allow-empty-input \"$@\" || true' --",
+      "prettier --write"
+    ],
+    "{eslint,prettier,stylelint}.config.{js,mjs,cjs}": ["prettier --write"],
+    "*.{json,md,yml,yaml}": ["prettier --write"]
   }
 }

@@ -7,3 +7,6 @@ docs/context/
 docs/plans/
 docs/research/
 docs/retros/
+# Linter caches
+.eslintcache
+.stylelintcache
