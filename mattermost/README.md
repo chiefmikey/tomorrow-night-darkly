@@ -20,12 +20,13 @@ color pickers under **Custom Theme** and set each value from the table below.
 | Center channel background | `#202020` | primary gray |
 | Center channel text | `#c6c6c6` | light gray text |
 | Sidebar / header / team bar background | `#181818` | darker gray |
-| Link / button / mention / active accent | `#b294bb` | accent purple |
-| Mention highlight background | `#3f3741` | dark accent tint |
-| Mention highlight link | `#b294bb` | accent purple |
-| Online indicator | `#18845e` | green |
-| Away indicator | `#d29922` | amber |
-| DND / error | `#f85149` | red |
+| Link / button / mention / active accent | `#b294bb` | accent pink |
+| Mention highlight background | `#b294bb` | accent pink |
+| Mention highlight text | `#181818` | darker gray (on pink) |
+| Online indicator | `#b294bb` | accent pink |
+| Away indicator | `#7d7d7d` | mid gray |
+| DND indicator | `#c6c6c6` | light gray |
+| Error text | `#f85149` | danger red (matches VS Code / Discord) |
 | Code block theme | `monokai` | dark syntax |
 
-Foreground on accent surfaces (buttons, mentions) is `#181818` for contrast.
+Foreground on accent surfaces (buttons, mentions, mention highlights) is `#181818` for contrast.
