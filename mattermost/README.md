@@ -1,7 +1,7 @@
 # Tomorrow Night Darkly - Mattermost Theme
 
 A dark theme for Mattermost matching the Tomorrow Night Darkly palette used by the
-Chrome and GitHub themes.
+other Tomorrow Night Darkly profiles (Chrome, Firefox, GitHub, VS Code, Slack, Discord, terminals).
 
 ## Install
 
@@ -15,17 +15,21 @@ color pickers under **Custom Theme** and set each value from the table below.
 
 ## Color mapping
 
-| Setting | Hex | Palette role |
-| --- | --- | --- |
-| Center channel background | `#202020` | primary gray |
-| Center channel text | `#c6c6c6` | light gray text |
-| Sidebar / header / team bar background | `#181818` | darker gray |
-| Link / button / mention / active accent | `#b294bb` | accent purple |
-| Mention highlight background | `#3f3741` | dark accent tint |
-| Mention highlight link | `#b294bb` | accent purple |
-| Online indicator | `#18845e` | green |
-| Away indicator | `#d29922` | amber |
-| DND / error | `#f85149` | red |
-| Code block theme | `monokai` | dark syntax |
+| Setting                                 | Hex       | Palette role                                                |
+| --------------------------------------- | --------- | ----------------------------------------------------------- |
+| Center channel background               | `#202020` | primary gray                                                |
+| Center channel text                     | `#c6c6c6` | light gray text                                             |
+| Sidebar / header / team bar background  | `#181818` | darker gray                                                 |
+| Sidebar hover background                | `#2e2e2e` | gray shade                                                  |
+| Sidebar unread / active text            | `#ffffff` | white (text on dark only)                                   |
+| Link / button / mention / active accent | `#b294bb` | accent pink                                                 |
+| New message separator                   | `#b294bb` | accent pink                                                 |
+| Mention highlight background            | `#b294bb` | accent pink                                                 |
+| Mention highlight text                  | `#181818` | darker gray (on pink)                                       |
+| Online indicator                        | `#b294bb` | accent pink                                                 |
+| Away indicator                          | `#7d7d7d` | mid gray                                                    |
+| DND indicator                           | `#c6c6c6` | light gray                                                  |
+| Error text                              | `#f85149` | danger red (matches VS Code / Discord / GitHub / terminals) |
+| Code block theme                        | `monokai` | dark syntax                                                 |
 
-Foreground on accent surfaces (buttons, mentions) is `#181818` for contrast.
+Foreground on accent surfaces (buttons, mentions, mention highlights) is `#181818` for contrast. White is never placed on pink (about 2.7:1 contrast).
