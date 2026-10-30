@@ -2,9 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import Img from 'react-cool-img';
 import { FiChrome, FiGithub } from 'react-icons/fi';
 
-import { capture } from '../telemetry';
+import { capture } from './telemetry';
 
-const App = () => {
+const App = (): React.JSX.Element => {
   const hovered = useRef(new Set<string>());
 
   useEffect(() => {
@@ -13,8 +13,10 @@ const App = () => {
     });
   }, []);
 
-  const onHover = (target: string) => {
-    if (hovered.current.has(target)) {return;}
+  const onHover = (target: string): void => {
+    if (hovered.current.has(target)) {
+      return;
+    }
     hovered.current.add(target);
     capture('install_link_hovered', { target });
   };

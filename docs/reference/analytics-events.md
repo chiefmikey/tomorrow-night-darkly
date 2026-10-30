@@ -1,6 +1,6 @@
 # Analytics events
 
-Wolfe telemetry standard v1: cookie-free, loaded from `https://e.wolfe.works/static/w.js` (tag in `public/index.html`, `data-site="tomorrow-night-darkly"`). Pageviews, page leave, scroll depth, clicks, web vitals and JS errors come from the loader automatically. Custom events go through `window.wolfeTelemetry.capture` via `client/src/telemetry.ts`. Props are enumerated values only, never free text.
+Wolfe telemetry standard v1: cookie-free, loaded from `https://e.wolfe.works/static/w.js` (tag in `public/index.html`, `data-site="tomorrow-night-darkly"`). Pageviews, page leave, scroll depth, clicks, web vitals and JS errors come from the loader automatically. Custom events go through `window.wolfeTelemetry.capture` via `client/src/components/telemetry.ts`. Props are enumerated values only, never free text.
 
 | Event                  | Trigger                                                            | Props                                           |
 | ---------------------- | ------------------------------------------------------------------ | ----------------------------------------------- |
